@@ -25,10 +25,20 @@
 }
 
 
-/* .font-sans {
-    font-family: var(--font-sans);
-} */
+:root {
+    --primary: #ff3030; /* Merah */
+    --secondary: #ffba0a; /* kuning */
+}
 
-/* .font-poppins {
-    font-family: var(--font-poppins);
-} */
+
+.font-sans {
+    font-family: var(--font-sans);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
