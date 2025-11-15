@@ -6,6 +6,14 @@
 @import "@fontsource/quicksand/600.css";
 @import "@fontsource/quicksand/700.css";
 
+@import "@fontsource/poppins";
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+
+
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
@@ -13,8 +21,14 @@
 
 @theme {
     --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+    /* --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif; */
 }
 
-.font-sans {
+
+/* .font-sans {
     font-family: var(--font-sans);
-}
+} */
+
+/* .font-poppins {
+    font-family: var(--font-poppins);
+} */
