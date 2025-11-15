@@ -2,6 +2,9 @@ import './bootstrap';
 import { createApp, h } from "vue";
 import { createInertiaApp } from "@inertiajs/vue3";
 
+// Import Font Awesome CSS here
+import '@fortawesome/fontawesome-free/css/all.css'; 
+
 createInertiaApp({
     resolve: (name) => {
         const pages = import.meta.glob("./Pages/**/*.vue", { eager: true });
