@@ -15,6 +15,20 @@
     --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
 }
 
+:root {
+    --primary: #ff3030; /* Merah */
+    --secondary: #ffba0a; /* kuning */
+}
+
+
 .font-sans {
     font-family: var(--font-sans);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
 }

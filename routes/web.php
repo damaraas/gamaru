@@ -7,3 +7,7 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
+Route::get('little-program', function () {
+    return Inertia::render('Little/Index');
+});
+
