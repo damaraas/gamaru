@@ -83,7 +83,7 @@
         </section>
         <!-- Section Kedua -->
 
-        <!-- Section Ketigas -->
+        <!-- Section Ketigas (Carousel Pertama) -->
         <section class="bg-yellow-400 py-16 px-4 sm:px-6 lg:px-8 font-quicksand overflow-hidden">
           <div class="max-w-7xl mx-auto">
             <h2 class="text-4xl md:text-5xl font-extrabold text-center text-black mb-12">
@@ -168,140 +168,184 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <!-- Section Ketiga -->
 
-        <!-- Section Keempat -->
-        <section class="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins overflow-hidden">
-          <div class="max-w-7xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-[#010101] mb-12">
-              Metode Belajar Interaktif dan Fun di Gamaru
-            </h2>
-
-            <div class="relative">
-              <!-- Navigation Arrows -->
-              <button
-                @click="prevCardMethod"
-                class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#ff3830] text-white p-3 rounded-full shadow-lg z-10 flex items-center justify-center w-12 h-12 md:-left-6"
-                aria-label="Previous"
-              >
-                <i class="fas fa-chevron-left text-xl"></i>
-              </button>
-              <button
-                @click="nextCardMethod"
-                class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#ff3830] text-white p-3 rounded-full shadow-lg z-10 flex items-center justify-center w-12 h-12 md:-right-6"
-                aria-label="Next"
-              >
-                <i class="fas fa-chevron-right text-xl"></i>
-              </button>
-
-              <!-- Carousel Container for Methods -->
-              <div class="carousel-container relative overflow-hidden">
-                <div
-                  class="carousel-track flex transition-transform duration-500 ease-in-out"
-                  :style="{ transform: `translateX(-${currentMethodIndex * (100 / methodsToShow)}%)` }"
-                >
-                  <!-- Card 1: Belajar Percakapan Sehari-hari -->
-                  <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
-                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
-                      <!-- Bagian atas: Gambar di kiri, H3 di kanan -->
-                      <div class="flex items-center mb-4">
-                        <div class="flex-shrink-0 mr-4">
-                          <img src="../../../../public/img/programteens/b1.webp" alt="Belajar Percakapan Sehari-hari" class="w-24 h-24 object-contain">
-                        </div>
-                        <h3 class="text-xl font-bold text-[#fe3231]">Belajar Percakapan Sehari-hari</h3>
-                      </div>
-                      <!-- Bagian bawah: Paragraf -->
-                      <p class="text-base text-gray-700">Ngobrol langsung: perkenalan diri, belanja, pesan makanan, hingga simulasi meeting bisnis. Bikin kamu lebih percaya diri ngomong mandarin tanpa kaku.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card 2: Persiapan HSK dan Sekolah Internasional -->
-                  <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
-                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
-                      <div class="flex items-center mb-4">
-                        <div class="flex-shrink-0 mr-4">
-                          <img src="../../../../public/img/programteens/b2.webp" alt="Persiapan HSK dan Sekolah Internasional" class="w-24 h-24 object-contain">
-                        </div>
-                        <h3 class="text-xl font-bold text-[#fe3231]">Persiapan HSK dan Sekolah Internasional</h3>
-                      </div>
-                      <p class="text-base text-gray-700">Materi terstruktur, latihan soal & strategi biar lebih siap ujian.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card 3: Kelas Anak dan Remaja -->
-                  <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
-                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
-                      <div class="flex items-center mb-4">
-                        <div class="flex-shrink-0 mr-4">
-                          <img src="../../../../public/img/programteens/b3.webp" alt="Kelas Anak dan Remaja" class="w-24 h-24 object-contain">
-                        </div>
-                        <h3 class="text-xl font-bold text-[#fe3231]">Kelas Anak dan Remaja</h3>
-                      </div>
-                      <p class="text-base text-gray-700">Belajar lewat cerita, lagu, gambar, dan game. Seru, gampang nempel, nggak bikin bosan.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card 4: Kelas Dewasa dan Profesional -->
-                  <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
-                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
-                      <div class="flex items-center mb-4">
-                        <div class="flex-shrink-0 mr-4">
-                          <img src="../../../../public/img/programteens/b4.webp" alt="Kelas Dewasa dan Profesional" class="w-24 h-24 object-contain">
-                        </div>
-                        <h3 class="text-xl font-bold text-[#fe3231]">Kelas Dewasa dan Profesional</h3>
-                      </div>
-                      <p class="text-base text-gray-700">Praktis untuk kerja & bisnis: presentasi, negosiasi, percakapan kerja sehari-hari.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card 5: Belajar Lewat Musik dan Film -->
-                  <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
-                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
-                      <div class="flex items-center mb-4">
-                        <div class="flex-shrink-0 mr-4">
-                          <img src="../../../../public/img/programteens/b5.webp" alt="Belajar Lewat Musik dan Film" class="w-24 h-24 object-contain">
-                        </div>
-                        <h3 class="text-xl font-bold text-[#fe3231]">Belajar Lewat Musik dan Film</h3>
-                      </div>
-                      <p class="text-base text-gray-700">Kosakata & listening diasah lewat lagu mandarin populer, drama, dan film pendek. Belajar terasa ringan, seperti lagi nonton atau karaoke.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card 6: Tracking Progress dan Feedback Personal -->
-                  <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
-                    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
-                      <div class="flex items-center mb-4">
-                        <div class="flex-shrink-0 mr-4">
-                          <img src="../../../../public/img/programteens/b6.webp" alt="Tracking Progress dan Feedback Personal" class="w-24 h-24 object-contain">
-                        </div>
-                        <h3 class="text-xl font-bold text-[#fe3231]">Tracking Progress dan Feedback Personal</h3>
-                      </div>
-                      <p class="text-base text-gray-700">Evaluasi rutin + rencana belajar personal. Bisa pantau progress dan tahu apa yang harus ditingkatkan.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Pagination Dots -->
+              <!-- Pagination Dots Carousel Pertama -->
               <div class="flex justify-center mt-8 space-x-2">
                 <span
-                  v-for="(method, index) in methodsData"
-                  :key="method.id"
-                  @click="goToMethodSlide(index)"
+                  v-for="n in totalCarouselPages"
+                  :key="n"
+                  @click="goToSlide(n - 1)"
                   :class="['w-3 h-3 rounded-full cursor-pointer transition-colors duration-300',
-                          currentMethodIndex === index ? 'bg-[#ff3830]' : 'bg-gray-300']"
+                           isCarouselDotActive(n - 1) ? 'bg-[#ff3830]' : 'bg-gray-300']"
                 ></span>
               </div>
             </div>
           </div>
         </section>
+        <!-- Section Ketiga -->
+
+        <!-- Section Keempat (Carousel Kedua) -->
+        <section class="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-center text-[#010101] mb-12">
+        Metode Belajar Interaktif dan Fun di Gamaru
+      </h2>
+
+      <div class="relative">
+        <!-- Navigation Arrows -->
+        <button
+          @click="prevCardMethod"
+          class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#ff3830] text-white p-3 rounded-full shadow-lg z-10 flex items-center justify-center w-12 h-12 md:-left-6"
+          aria-label="Previous"
+        >
+          <i class="fas fa-chevron-left text-xl"></i>
+        </button>
+        <button
+          @click="nextCardMethod"
+          class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#ff3830] text-white p-3 rounded-full shadow-lg z-10 flex items-center justify-center w-12 h-12 md:-right-6"
+          aria-label="Next"
+        >
+          <i class="fas fa-chevron-right text-xl"></i>
+        </button>
+
+        <!-- Carousel Container for Methods -->
+        <div class="carousel-container relative overflow-hidden">
+          <div
+            class="carousel-track flex transition-transform duration-500 ease-in-out"
+            :style="{ transform: `translateX(-${currentMethodIndex * (100 / methodsToShow)}%)` }"
+          >
+            <!-- Card 1: Belajar Percakapan Sehari-hari -->
+            <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
+              <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
+                <!-- *** BAGIAN INI YANG DIUBAH *** -->
+                <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+                  <div class="flex-shrink-0 mr-0 sm:mr-4 mb-2 sm:mb-0">
+                    <img src="../../../../public/img/programteens/b1.webp" alt="Belajar Percakapan Sehari-hari" class="w-24 h-24 object-contain">
+                  </div>
+                  <h3 class="text-xl font-bold text-[#fe3231] text-center sm:text-left">Belajar Percakapan Sehari-hari</h3>
+                </div>
+                <!-- Bagian bawah: Paragraf -->
+                <p class="text-base text-gray-700">Ngobrol langsung: perkenalan diri, belanja, pesan makanan, hingga simulasi meeting bisnis. Bikin kamu lebih percaya diri ngomong mandarin tanpa kaku.</p>
+              </div>
+            </div>
+
+            <!-- Card 2: Persiapan HSK dan Sekolah Internasional -->
+            <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
+              <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
+                <!-- *** BAGIAN INI YANG DIUBAH *** -->
+                <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+                  <div class="flex-shrink-0 mr-0 sm:mr-4 mb-2 sm:mb-0">
+                    <img src="../../../../public/img/programteens/b2.webp" alt="Persiapan HSK dan Sekolah Internasional" class="w-24 h-24 object-contain">
+                  </div>
+                  <h3 class="text-xl font-bold text-[#fe3231] text-center sm:text-left">Persiapan HSK dan Sekolah Internasional</h3>
+                </div>
+                <p class="text-base text-gray-700">Materi terstruktur, latihan soal & strategi biar lebih siap ujian.</p>
+              </div>
+            </div>
+
+            <!-- Card 3: Kelas Anak dan Remaja -->
+            <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
+              <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
+                <!-- *** BAGIAN INI YANG DIUBAH *** -->
+                <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+                  <div class="flex-shrink-0 mr-0 sm:mr-4 mb-2 sm:mb-0">
+                    <img src="../../../../public/img/programteens/b3.webp" alt="Kelas Anak dan Remaja" class="w-24 h-24 object-contain">
+                  </div>
+                  <h3 class="text-xl font-bold text-[#fe3231] text-center sm:text-left">Kelas Anak dan Remaja</h3>
+                </div>
+                <p class="text-base text-gray-700">Belajar lewat cerita, lagu, gambar, dan game. Seru, gampang nempel, nggak bikin bosan.</p>
+              </div>
+            </div>
+
+            <!-- Card 4: Kelas Dewasa dan Profesional -->
+            <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
+              <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
+                <!-- *** BAGIAN INI YANG DIUBAH *** -->
+                <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+                  <div class="flex-shrink-0 mr-0 sm:mr-4 mb-2 sm:mb-0">
+                    <img src="../../../../public/img/programteens/b4.webp" alt="Kelas Dewasa dan Profesional" class="w-24 h-24 object-contain">
+                  </div>
+                  <h3 class="text-xl font-bold text-[#fe3231] text-center sm:text-left">Kelas Dewasa dan Profesional</h3>
+                </div>
+                <p class="text-base text-gray-700">Praktis untuk kerja & bisnis: presentasi, negosiasi, percakapan kerja sehari-hari.</p>
+              </div>
+            </div>
+
+            <!-- Card 5: Belajar Lewat Musik dan Film -->
+            <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
+              <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
+                <!-- *** BAGIAN INI YANG DIUBAH *** -->
+                <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+                  <div class="flex-shrink-0 mr-0 sm:mr-4 mb-2 sm:mb-0">
+                    <img src="../../../../public/img/programteens/b5.webp" alt="Belajar Lewat Musik dan Film" class="w-24 h-24 object-contain">
+                  </div>
+                  <h3 class="text-xl font-bold text-[#fe3231] text-center sm:text-left">Belajar Lewat Musik dan Film</h3>
+                </div>
+                <p class="text-base text-gray-700">Kosakata & listening diasah lewat lagu mandarin populer, drama, dan film pendek. Belajar terasa ringan, seperti lagi nonton atau karaoke.</p>
+              </div>
+            </div>
+
+            <!-- Card 6: Tracking Progress dan Feedback Personal -->
+            <div class="carousel-card flex-shrink-0 w-full md:w-1/2 p-4">
+              <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
+                <!-- *** BAGIAN INI YANG DIUBAH *** -->
+                <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+                  <div class="flex-shrink-0 mr-0 sm:mr-4 mb-2 sm:mb-0">
+                    <img src="../../../../public/img/programteens/b6.webp" alt="Tracking Progress dan Feedback Personal" class="w-24 h-24 object-contain">
+                  </div>
+                  <h3 class="text-xl font-bold text-[#fe3231] text-center sm:text-left">Tracking Progress dan Feedback Personal</h3>
+                </div>
+                <p class="text-base text-gray-700">Evaluasi rutin + rencana belajar personal. Bisa pantau progress dan tahu apa yang harus ditingkatkan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination Dots Carousel Kedua -->
+        <div class="flex justify-center mt-8 space-x-2">
+          <span
+            v-for="n in totalMethodPages"
+            :key="n"
+            @click="goToMethodSlide(n - 1)"
+            :class="['w-3 h-3 rounded-full cursor-pointer transition-colors duration-300',
+                     isMethodDotActive(n - 1) ? 'bg-[#ff3830]' : 'bg-gray-300']"
+          ></span>
+        </div>
+      </div>
+    </div>
+  </section>
         <!-- Section Keempat -->
 
         <!-- Section Kelima -->
-          <!-- Add your Section 5 content here -->
+        <section class="bg-yellow-400 py-16 px-4 sm:px-6 lg:px-8">
+          <div class="max-w-7xl mx-auto flex flex-col items-center">
+            
+            <h2 class="text-4xl font-bold text-gray-800 text-center">Testimoni</h2>
+
+            <div class="flex flex-col lg:flex-row items-center justify-between w-full">
+
+              <div class="lg:w-3/5 flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-10 lg:mb-0">
+                <div class="flex-shrink-0">
+                  <img src="../../../../public/img/programteens/Testimoni-Gamaru-Siswa.webp" alt="Kevin Profile" class="w-24 h-24 rounded-full object-cover">
+                </div>
+
+                <div class="text-gray-800 max-w-xl text-justify font-semibold">
+                  <p class="text-lg italic mb-4">
+                    "Saya kuliah sambil kerja part-time, jadi butuh jadwal fleksibel. Untungnya di GAMARU bisa pilih belajar online. Tutornya menyesuaikan waktu saya, dan sekarang kemampuan Mandarin saya jauh lebih lancar untuk kebutuhan kuliah dan kerja."
+                  </p>
+                  <p class="font-semibold text-lg">Kevin, Mahasiswa - Jakarta</p>
+                </div>
+              </div>
+
+              <div class="lg:w-2/5 flex justify-center lg:justify-end">
+                <img src="../../../../public/img/programteens/Testimoni-Gamaru-Maskot.webp" alt="Panda Illustration" class=" object-contain">
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
         <!-- Section Kelima -->
 
         <!-- Section Keenam -->
@@ -358,39 +402,33 @@
 </template>
 
 <script setup>
+import AppLayout from '@/Layouts/AppLayout.vue'; // Pastikan path ini benar
 import { ref, onMounted, onUnmounted, computed } from 'vue';
 
-// Data untuk Carousel Pertama ("Kenapa Harus Les Privat")
+// --- Data untuk Carousel Pertama ("Kenapa Harus Les Privat") ---
 const cardsData = [
-  { id: 1, title: 'Personalized Learning', description: 'Belajar 1-on-1 sesuai kebutuhanmu' },
-  { id: 2, title: 'Flexibility', description: 'Bisa online/offline, pilih waktumu' },
-  { id: 3, title: 'Quality Teacher', description: 'Dibimbing native speaker & pengajar berpengalaman' },
-  { id: 4, title: 'Fun Learning', description: 'Belajar seru dan tidak membosankan' },
-  { id: 5, title: 'Result-Oriented', description: 'Fokus ke pencapaian hasil nyata' },
-  { id: 6, title: 'Trust & Care', description: 'Pendampingan penuh, selalu support kamu' },
+  { id: 1, title: 'Personalized Learning', description: 'Belajar 1-on-1 sesuai kebutuhanmu', img: '../../../../public/img/programteens/a1.webp' },
+  { id: 2, title: 'Flexibility', description: 'Bisa online/offline, pilih waktumu', img: '../../../../public/img/programteens/a2.webp' },
+  { id: 3, title: 'Quality Teacher', description: 'Dibimbing native speaker & pengajar berpengalaman', img: '../../../../public/img/programteens/a3.webp' },
+  { id: 4, title: 'Fun Learning', description: 'Belajar seru dan tidak membosankan', img: '../../../../public/img/programteens/a4.webp' },
+  { id: 5, title: 'Result-Oriented', description: 'Fokus ke pencapaian hasil nyata', img: '../../../../public/img/programteens/a5.webp' },
+  { id: 6, title: 'Trust & Care', description: 'Pendampingan penuh, selalu support kamu', img: '../../../../public/img/programteens/a6.webp' },
 ];
 
-// Data untuk Carousel Kedua ("Metode Belajar Interaktif")
-const methodsData = [
-  { id: 1, title: 'Belajar Percakapan Sehari-hari', description: 'Ngobrol langsung: perkenalan diri, belanja, pesan makanan, hingga simulasi meeting bisnis. Bikin kamu lebih percaya diri ngomong mandarin tanpa kaku.' },
-  { id: 2, title: 'Persiapan HSK dan Sekolah Internasional', description: 'Materi terstruktur, latihan soal & strategi biar lebih siap ujian.' },
-  { id: 3, title: 'Kelas Anak dan Remaja', description: 'Belajar lewat cerita, lagu, gambar, dan game. Seru, gampang nempel, nggak bikin bosan.' },
-  { id: 4, title: 'Kelas Dewasa dan Profesional', description: 'Praktis untuk kerja & bisnis: presentasi, negosiasi, percakapan kerja sehari-hari.' },
-  { id: 5, title: 'Belajar Lewat Musik dan Film', description: 'Kosakata & listening diasah lewat lagu mandarin populer, drama, dan film pendek. Belajar terasa ringan, seperti lagi nonton atau karaoke.' },
-  { id: 6, title: 'Tracking Progress dan Feedback Personal', description: 'Evaluasi rutin + rencana belajar personal. Bisa pantau progress dan tahu apa yang harus ditingkatkan.' },
-];
-
-// State dan Fungsi untuk Carousel Pertama (cardsData)
 const currentIndex = ref(0);
-const cardsToShow = ref(3);
+const cardsToShow = ref(1); // Default for mobile
 
 const updateCardsToShow = () => {
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 768) { // Mobile: 1 card
     cardsToShow.value = 1;
-  } else if (window.innerWidth < 1024) {
+  } else if (window.innerWidth < 1024) { // Tablet (md): 2 cards
     cardsToShow.value = 2;
-  } else {
+  } else { // Desktop (lg+): 3 cards
     cardsToShow.value = 3;
+  }
+  // Reset index to prevent out-of-bounds issues when resizing
+  if (currentIndex.value > cardsData.length - cardsToShow.value) {
+    currentIndex.value = Math.max(0, cardsData.length - cardsToShow.value);
   }
 };
 
@@ -398,7 +436,7 @@ const nextCard = () => {
   if (currentIndex.value < cardsData.length - cardsToShow.value) {
     currentIndex.value++;
   } else {
-    currentIndex.value = 0;
+    currentIndex.value = 0; // Loop back to start
   }
 };
 
@@ -406,19 +444,48 @@ const prevCard = () => {
   if (currentIndex.value > 0) {
     currentIndex.value--;
   } else {
-    currentIndex.value = cardsData.length - cardsToShow.value;
+    currentIndex.value = cardsData.length - cardsToShow.value; // Loop to end
   }
 };
 
-// State dan Fungsi untuk Carousel Kedua (methodsData)
+const totalCarouselPages = computed(() => {
+  return Math.ceil(cardsData.length / cardsToShow.value);
+});
+
+const goToSlide = (pageIndex) => {
+  currentIndex.value = pageIndex * cardsToShow.value;
+};
+
+const isCarouselDotActive = (pageIndex) => {
+  // Check if the current page index is the start of the visible cards
+  // Or if current index is within the range of cards shown by this dot
+  return currentIndex.value >= (pageIndex * cardsToShow.value) && 
+         currentIndex.value < ((pageIndex + 1) * cardsToShow.value);
+};
+
+
+// --- Data untuk Carousel Kedua ("Metode Belajar Interaktif") ---
+const methodsData = [
+  { id: 1, title: 'Belajar Percakapan Sehari-hari', description: 'Ngobrol langsung: perkenalan diri, belanja, pesan makanan, hingga simulasi meeting bisnis. Bikin kamu lebih percaya diri ngomong mandarin tanpa kaku.', img: '../../../../public/img/programteens/b1.webp' },
+  { id: 2, title: 'Persiapan HSK dan Sekolah Internasional', description: 'Materi terstruktur, latihan soal & strategi biar lebih siap ujian.', img: '../../../../public/img/programteens/b2.webp' },
+  { id: 3, title: 'Kelas Anak dan Remaja', description: 'Belajar lewat cerita, lagu, gambar, dan game. Seru, gampang nempel, nggak bikin bosan.', img: '../../../../public/img/programteens/b3.webp' },
+  { id: 4, title: 'Kelas Dewasa dan Profesional', description: 'Praktis untuk kerja & bisnis: presentasi, negosiasi, percakapan kerja sehari-hari.', img: '../../../../public/img/programteens/b4.webp' },
+  { id: 5, title: 'Belajar Lewat Musik dan Film', description: 'Kosakata & listening diasah lewat lagu mandarin populer, drama, dan film pendek. Belajar terasa ringan, seperti lagi nonton atau karaoke.', img: '../../../../public/img/programteens/b5.webp' },
+  { id: 6, title: 'Tracking Progress dan Feedback Personal', description: 'Evaluasi rutin + rencana belajar personal. Bisa pantau progress dan tahu apa yang harus ditingkatkan.', img: '../../../../public/img/programteens/b6.webp' },
+];
+
 const currentMethodIndex = ref(0);
-const methodsToShow = ref(2);
+const methodsToShow = ref(1); // Default for mobile
 
 const updateMethodsToShow = () => {
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 768) { // Mobile: 1 card
     methodsToShow.value = 1;
-  } else {
+  } else { // Desktop (md+): 2 cards
     methodsToShow.value = 2;
+  }
+  // Reset index to prevent out-of-bounds issues when resizing
+  if (currentMethodIndex.value > methodsData.length - methodsToShow.value) {
+    currentMethodIndex.value = Math.max(0, methodsData.length - methodsToShow.value);
   }
 };
 
@@ -426,7 +493,7 @@ const nextCardMethod = () => {
   if (currentMethodIndex.value < methodsData.length - methodsToShow.value) {
     currentMethodIndex.value++;
   } else {
-    currentMethodIndex.value = 0;
+    currentMethodIndex.value = 0; // Loop back to start
   }
 };
 
@@ -434,15 +501,27 @@ const prevCardMethod = () => {
   if (currentMethodIndex.value > 0) {
     currentMethodIndex.value--;
   } else {
-    currentMethodIndex.value = methodsData.length - methodsToShow.value;
+    currentMethodIndex.value = methodsData.length - methodsToShow.value; // Loop to end
   }
 };
 
-const goToMethodSlide = (index) => {
-  currentMethodIndex.value = index;
+const totalMethodPages = computed(() => {
+  return Math.ceil(methodsData.length / methodsToShow.value);
+});
+
+const goToMethodSlide = (pageIndex) => {
+  currentMethodIndex.value = pageIndex * methodsToShow.value;
 };
 
-// LifeCycle Hooks
+const isMethodDotActive = (pageIndex) => {
+  // Check if the current page index is the start of the visible methods
+  // Or if current index is within the range of methods shown by this dot
+  return currentMethodIndex.value >= (pageIndex * methodsToShow.value) && 
+         currentMethodIndex.value < ((pageIndex + 1) * methodsToShow.value);
+};
+
+
+// --- LifeCycle Hooks ---
 onMounted(() => {
   updateCardsToShow();
   updateMethodsToShow();
@@ -460,53 +539,30 @@ onUnmounted(() => {
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Poppins:wght@400;700&display=swap');
 @import '@fortawesome/fontawesome-free/css/all.css'; 
 
+/* Pastikan font-family diterapkan */
 .gamaru-h1-primary {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700; 
   color: #010101;
 }
 
-
 p {
   color: #010101;
 }
-
 
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Override default for single card on mobile for the first carousel */
-@media (max-width: 767px) { /* below md breakpoint */
-  .carousel-card {
-    width: 100%; /* 1 kartu di mobile */
-  }
-}
+/* Mengatur ulang margin/padding pada carousel-card agar p-4 bekerja dengan baik */
+/* Pastikan ini ada di stylesheet utama Tailwind Anda atau di section <style> ini */
 
-/* For md and larger, show 2 cards in the first carousel */
-@media (min-width: 768px) { /* md breakpoint */
-  .carousel-card.md\:w-1\/2 { /* Targeting cards in the first carousel specifically */
-    width: 50%; /* 2 kartu */
-  }
-}
-/* For lg and larger, show 3 cards in the first carousel */
-@media (min-width: 1024px) { /* lg breakpoint */
-  .carousel-card.lg\:w-1\/3 { /* Targeting cards in the first carousel specifically */
-    width: calc(100% / 3); /* 3 cards */
-  }
-}
+/* Ini mengelola lebar kartu di dalam carousel secara *dinamis* berdasarkan JS, 
+   jadi kelas Tailwind w-full md:w-1/2 lg:w-1/3 pada carousel-card akan tetap ada 
+   tapi nilai `cardsToShow` dan `methodsToShow` dari JS akan mengatur `transform` */
 
-
-.carousel-container .carousel-card.md\:w-1\/2 {
-  width: 50%; 
-}
-
-@media (max-width: 767px) {
-  .carousel-container .carousel-card {
-    width: 100%; 
-  }
-}
-
+/* Tidak perlu override CSS tambahan di sini jika kelas Tailwind sudah benar
+   dan logika JS untuk `cardsToShow`/`methodsToShow` sudah menghitung pergeseran `translateX` dengan benar. */
 
 .gamaru-hero-section h1 { 
   color: #ffffff;
