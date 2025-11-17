@@ -1,3 +1,7 @@
+<script setup>
+import { Link } from "@inertiajs/vue3";
+</script>
+
 <template>
     <section id="paket" class="py-16 bg-white font-sans">
         <div class="max-w-6xl mx-auto text-center px-6">
@@ -23,26 +27,26 @@
                             />
                         </div>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                         >
                             Nama Paket :
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Little Learners</span
                             >
                         </p>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
                         >
                             Start from:
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[23.31px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Rp350.000</span
                             >
                         </p>
-                        <a
-                            href="#"
-                            class="text-[#FF3B3B] font-bold text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
+                        <Link
+                            href="/little-program"
+                            class="text-[#FF3B3B] font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
                         >
                             Cek Detail
                             <img
@@ -50,7 +54,7 @@
                                 alt="icon"
                                 class="h-10 w-8"
                             />
-                        </a>
+                        </Link>
                     </div>
 
                     <!-- Card 2 -->
@@ -65,26 +69,26 @@
                             />
                         </div>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                         >
                             Nama Paket :
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Teens & School Prep</span
                             >
                         </p>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
                         >
                             Start from:
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[23.31px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Rp550.000</span
                             >
                         </p>
-                        <a
-                            href="#"
-                            class="text-[#FF3B3B] font-bold text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
+                        <Link
+                            href="/program-teens"
+                            class="text-[#FF3B3B] font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
                         >
                             Cek Detail
                             <img
@@ -92,7 +96,7 @@
                                 alt="icon"
                                 class="h-10 w-8"
                             />
-                        </a>
+                        </Link>
                     </div>
 
                     <!-- Card 3 -->
@@ -107,26 +111,26 @@
                             />
                         </div>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                         >
                             Nama Paket :
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Adults & Professionals</span
                             >
                         </p>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
                         >
                             Start from:
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[23.31px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Rp600.000</span
                             >
                         </p>
                         <a
                             href="#"
-                            class="text-[#FF3B3B] font-bold text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
+                            class="text-[#FF3B3B] font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
                         >
                             Cek Detail
                             <img
@@ -149,26 +153,26 @@
                             />
                         </div>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                         >
                             Nama Paket :
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Global Learners</span
                             >
                         </p>
                         <p
-                            class="font-medium text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
+                            class="font-medium text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1"
                         >
                             Start from:
                             <span
-                                class="font-bold text-[23.31px] leading-[100%] tracking-[0] text-center"
+                                class="font-bold text-[23.31px] md:text-[23.31px] leading-[100%] tracking-[0] text-center"
                                 >Rp650.000</span
                             >
                         </p>
                         <a
                             href="#"
-                            class="text-[#FF3B3B] font-bold text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
+                            class="text-[#FF3B3B] font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
                         >
                             Cek Detail
                             <img
