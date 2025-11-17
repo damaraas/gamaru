@@ -8,6 +8,7 @@ const programOpen = ref(false);
 </script>
 
 <template>
+    <div class="sticky top-0 w-full z-50 bg-white/80 backdrop-blur-md">
     <!-- Header -->
     <nav class="border-t border-gray-200">
       <div class="container mx-auto font-onest lg:px-10 px-4">
@@ -162,4 +163,5 @@ const programOpen = ref(false);
         </ul>
       </div>
     </nav>
+</div>
 </template>
