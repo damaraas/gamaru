@@ -6,13 +6,13 @@
         <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 text-black" style="font-family: 'Quicksand', sans-serif;">
           Belajar Mandarin Seru<br>untuk Anak Usia Dini
         </h1>
-        <p class="text-lg md:text-xl leading-relaxed mb-8 text-black">
+        <p class="text-lg md:text-xl font-semibold leading-relaxed mb-8 text-black">
           Belajar bahasa asing sejak kecil bisa jadi menyenangkan lho Moms! Program Little Learners (4-12 tahun) dirancang untuk anak-anak yang baru mulai mengenal Mandarin lewat lagu, permainan, flashcard, hingga perkenalan Hanzi sederhana.
         </p>
-        <p class="text-lg md:text-xl leading-relaxed mb-8 text-black">
+        <p class="text-lg md:text-xl font-semibold leading-relaxed mb-8 text-black">
           Metode fun learning membuat anak lebih cepat menangkap kosakata sehari-hari, membangun kepercayaan diri untuk berbicara, serta menumbuhkan rasa ingin tahu terhadap budaya baru.
         </p>
-        <p class="text-lg md:text-xl leading-relaxed text-black">
+        <p class="text-lg md:text-xl font-semibold leading-relaxed text-black">
           Yuk mulai les privat Mandarin anak bersama Gamaru sekarang, biar si kecil tumbuh percaya diri dan siap menghadapi dunia global.
         </p>
       </div>
@@ -24,7 +24,7 @@
           <div class="absolute inset-0 bg-yellow-400 rounded-full z-0"></div> 
           <!-- Gambar panda, pastikan dia di atas lingkaran kuning -->
           <img 
-            src="." 
+            src="../../../../public/img/programteens/Maskot_Gamaru-17.webp" 
             alt="Panda" 
             class="relative z-10 w-[350px] h-[350px] md:w-[450px] md:h-[450px] object-contain"
           >
@@ -36,9 +36,10 @@
 
   <!-- Section Kedua -->
   <section class="flex flex-col items-center py-10 px-4 bg-gray-50 font-quicksand">
-    <div class="bg-[#ff3830] text-white text-2xl font-bold py-2 px-6 rounded-lg mb-8 shadow-md">
+    <div class="bg-[#ff3830] text-white text-3xl md:text-4xl font-extrabold py-4 px-8 rounded-xl mb-10 shadow-lg">
       Teens and School Prep (13-18 tahun)
     </div>
+
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl w-full">
       
@@ -115,7 +116,7 @@
             <div class="carousel-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-b-4 border-[#ff3830] h-full">
                 <h3 class="text-2xl font-bold text-black mb-2">Personalized Learning</h3>
-                <img src="." alt="Personalized Learning" class="w-48 h-auto mb-4 object-contain">
+                <img src="../../../../public/img/programteens/a1.webp" alt="Personalized Learning" class="w-48 h-auto mb-4 object-contain">
                 <p class="text-lg text-gray-700">Belajar 1-on-1 sesuai kebutuhanmu</p>
               </div>
             </div>
@@ -124,7 +125,7 @@
             <div class="carousel-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-b-4 border-[#ff3830] h-full">
                 <h3 class="text-2xl font-bold text-black mb-2">Flexibility</h3>
-                <img src="." alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
+                <img src="../../../../public/img/programteens/a2.webp" alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
                 <p class="text-lg text-gray-700">Bisa online/offline, pilih waktumu</p>
               </div>
             </div>
@@ -133,7 +134,7 @@
             <div class="carousel-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-b-4 border-[#ff3830] h-full">
                 <h3 class="text-2xl font-bold text-black mb-2">Quality Teacher</h3>
-                <img src="." alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
+                <img src="../../../../public/img/programteens/a3.webp" alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
                 <p class="text-lg text-gray-700">Dibimbing native speaker & pengajar berpengalaman</p>
               </div>
             </div>
@@ -142,7 +143,7 @@
             <div class="carousel-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-b-4 border-[#ff3830] h-full">
                 <h3 class="text-2xl font-bold text-black mb-2">Fun Learning</h3>
-                <img src="." alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
+                <img src="../../../../public/img/programteens/a4.webp" alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
                 <p class="text-lg text-gray-700">Belajar seru dan tidak membosankan</p>
               </div>
             </div>
@@ -151,7 +152,7 @@
             <div class="carousel-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-b-4 border-[#ff3830] h-full">
                 <h3 class="text-2xl font-bold text-black mb-2">Result-Oriented</h3>
-                <img src="." alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
+                <img src="../../../../public/img/programteens/a5.webp" alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
                 <p class="text-lg text-gray-700">Fokus ke pencapaian hasil nyata</p>
               </div>
             </div>
@@ -160,7 +161,7 @@
             <div class="carousel-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-b-4 border-[#ff3830] h-full">
                 <h3 class="text-2xl font-bold text-black mb-2">Trust & Care</h3>
-                <img src="." alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
+                <img src="../../../../public/img/programteens/a6.webp" alt="Flexibility" class="w-48 h-auto mb-4 object-contain">
                 <p class="text-lg text-gray-700">Pendampingan penuh, selalu support kamu</p>
               </div>
             </div>
@@ -207,7 +208,7 @@
                 <!-- Bagian atas: Gambar di kiri, H3 di kanan -->
                 <div class="flex items-center mb-4">
                   <div class="flex-shrink-0 mr-4">
-                    <img src="." alt="Belajar Percakapan Sehari-hari" class="w-24 h-24 object-contain">
+                    <img src="../../../../public/img/programteens/b1.webp" alt="Belajar Percakapan Sehari-hari" class="w-24 h-24 object-contain">
                   </div>
                   <h3 class="text-xl font-bold text-[#fe3231]">Belajar Percakapan Sehari-hari</h3>
                 </div>
@@ -221,7 +222,7 @@
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
                 <div class="flex items-center mb-4">
                   <div class="flex-shrink-0 mr-4">
-                    <img src="." alt="Persiapan HSK dan Sekolah Internasional" class="w-24 h-24 object-contain">
+                    <img src="../../../../public/img/programteens/b2.webp" alt="Persiapan HSK dan Sekolah Internasional" class="w-24 h-24 object-contain">
                   </div>
                   <h3 class="text-xl font-bold text-[#fe3231]">Persiapan HSK dan Sekolah Internasional</h3>
                 </div>
@@ -234,7 +235,7 @@
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
                 <div class="flex items-center mb-4">
                   <div class="flex-shrink-0 mr-4">
-                    <img src="." alt="Kelas Anak dan Remaja" class="w-24 h-24 object-contain">
+                    <img src="../../../../public/img/programteens/b3.webp" alt="Kelas Anak dan Remaja" class="w-24 h-24 object-contain">
                   </div>
                   <h3 class="text-xl font-bold text-[#fe3231]">Kelas Anak dan Remaja</h3>
                 </div>
@@ -247,7 +248,7 @@
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
                 <div class="flex items-center mb-4">
                   <div class="flex-shrink-0 mr-4">
-                    <img src="." alt="Kelas Dewasa dan Profesional" class="w-24 h-24 object-contain">
+                    <img src="../../../../public/img/programteens/b4.webp" alt="Kelas Dewasa dan Profesional" class="w-24 h-24 object-contain">
                   </div>
                   <h3 class="text-xl font-bold text-[#fe3231]">Kelas Dewasa dan Profesional</h3>
                 </div>
@@ -260,7 +261,7 @@
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
                 <div class="flex items-center mb-4">
                   <div class="flex-shrink-0 mr-4">
-                    <img src="." alt="Belajar Lewat Musik dan Film" class="w-24 h-24 object-contain">
+                    <img src="../../../../public/img/programteens/b5.webp" alt="Belajar Lewat Musik dan Film" class="w-24 h-24 object-contain">
                   </div>
                   <h3 class="text-xl font-bold text-[#fe3231]">Belajar Lewat Musik dan Film</h3>
                 </div>
@@ -273,7 +274,7 @@
               <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col text-left border border-gray-200 h-full">
                 <div class="flex items-center mb-4">
                   <div class="flex-shrink-0 mr-4">
-                    <img src="." alt="Tracking Progress dan Feedback Personal" class="w-24 h-24 object-contain">
+                    <img src="../../../../public/img/programteens/b6.webp" alt="Tracking Progress dan Feedback Personal" class="w-24 h-24 object-contain">
                   </div>
                   <h3 class="text-xl font-bold text-[#fe3231]">Tracking Progress dan Feedback Personal</h3>
                 </div>
@@ -318,7 +319,7 @@
           target="_blank" 
           class="hidden md:inline-flex items-center bg-[#25D366] text-white px-6 py-3 rounded-full mt-8 text-lg font-semibold hover:bg-[#1DA851] transition-colors duration-300"
         >
-          <img src="." alt="WhatsApp Icon" class="w-6 h-6 mr-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="w-6 h-6 mr-2">
           Chat MinXue
         </a>
       </div>
@@ -329,7 +330,7 @@
         <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 flex items-center justify-center">
             <div class="absolute inset-0 bg-yellow-400 rounded-full"></div>
             <img 
-              src="." 
+              src="../../../../public/img/programteens/Maskot_Gamaru-04.webp" 
               alt="Gamaru Mascot" 
               class="relative z-10 w-full h-full object-contain p-2" 
             >
@@ -343,7 +344,7 @@
           target="_blank" 
           class="inline-flex items-center bg-[#25D366] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#1DA851] transition-colors duration-300 w-full max-w-xs justify-center"
         >
-          <img src="." alt="WhatsApp Icon" class="w-6 h-6 mr-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="w-6 h-6 mr-2">
           Chat MinXue
         </a>
       </div>

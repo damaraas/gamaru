@@ -11,3 +11,7 @@ Route::get('little-program', function () {
     return Inertia::render('Little/Index');
 });
 
+Route::get('/program-teens', function () {
+    return Inertia::render('Little/ProgramTeens');
+});
+
