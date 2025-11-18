@@ -48,9 +48,9 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     </div>
 
                     <img
-                        src="../../../../public/img/anak.png"
+                        src="../../../../public/img/homepage/anak.webp"
                         alt="Anak"
-                        class="absolute bottom-0 right-8 w-60 md:w-[320px] md:h-[400px] object-cover max-md:-right-6 max-md:bottom-0 max-md:w-[260px] max-md:h-auto"
+                        class="absolute bottom-0 right-0 w-60 md:w-[320px] md:h-[400px] object-cover max-md:-right-12 max-md:bottom-0 max-md:w-[260px] max-md:h-auto"
                     />
                 </div>
 
@@ -90,9 +90,9 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     </div>
 
                     <img
-                        src="../../../../public/img/remaja.png"
+                        src="../../../../public/img/homepage/remaja.webp"
                         alt="Remaja"
-                        class="absolute bottom-0 right-8 w-60 md:w-[320px] md:h-[400px] object-cover max-md:right-0 max-md:bottom-0 max-md:w-[260px] max-md:h-auto"
+                        class="absolute bottom-0 right-8 w-60 md:w-[300px] md:h-[300px] object-cover max-md:-right-6 max-md:bottom-0 max-md:w-[260px] max-md:h-auto"
                     />
                 </div>
 
@@ -127,9 +127,9 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     </div>
 
                     <img
-                        src="../../../../public/img/8a3f94e50f2da58a7d91109f4369a0f5511e452f.png"
+                        src="../../../../public/img/homepage/dewasa.webp"
                         alt="Dewasa"
-                        class="absolute right-8 w-60 md:w-[394px] md:h-[492px] object-cover md:-bottom-39 max-md:-bottom-26 max-md:right-0 max-md:w-[260px] max-md:h-auto"
+                        class="absolute bottom-0 right-6 w-60 md:w-[300px] md:h-[300px] object-cover max-md:-right-6 max-md:bottom-0 max-md:w-[260px] max-md:h-auto"
                     />
                 </div>
 

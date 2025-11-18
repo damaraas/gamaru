@@ -21,7 +21,7 @@ import { Link } from "@inertiajs/vue3";
                             class="w-28 h-28 rounded-full bg-[#FFE729] flex items-center justify-center mb-4 overflow-hidden"
                         >
                             <img
-                                src="../../../../public/img/little-learners.png"
+                                src="../../../../public/img/homepage/little-learners.webp"
                                 alt="Little Learners"
                                 class="object-cover w-full h-full rounded-full"
                             />
@@ -50,7 +50,7 @@ import { Link } from "@inertiajs/vue3";
                         >
                             Cek Detail
                             <img
-                                src="../../../../public/img/arrow-red.png"
+                                src="../../../../public/img/homepage/arrow-red.webp"
                                 alt="icon"
                                 class="h-10 w-8"
                             />
@@ -63,7 +63,7 @@ import { Link } from "@inertiajs/vue3";
                             class="w-28 h-28 rounded-full bg-[#FFE729] flex items-center justify-center mb-4 overflow-hidden"
                         >
                             <img
-                                src="../../../../public/img/teen-school.png"
+                                src="../../../../public/img/homepage/teen-school.webp"
                                 alt="Teen & School Prep"
                                 class="object-cover w-full h-full rounded-full"
                             />
@@ -92,7 +92,7 @@ import { Link } from "@inertiajs/vue3";
                         >
                             Cek Detail
                             <img
-                                src="../../../../public/img/arrow-red.png"
+                                src="../../../../public/img/homepage/arrow-red.webp"
                                 alt="icon"
                                 class="h-10 w-8"
                             />
@@ -105,7 +105,7 @@ import { Link } from "@inertiajs/vue3";
                             class="w-28 h-28 rounded-full bg-[#FFE729] flex items-center justify-center mb-4 overflow-hidden"
                         >
                             <img
-                                src="../../../../public/img/adults-pro.png"
+                                src="../../../../public/img/homepage/adults-pro.webp"
                                 alt="Adults & Professionals"
                                 class="object-cover w-full h-full rounded-full"
                             />
@@ -134,7 +134,7 @@ import { Link } from "@inertiajs/vue3";
                         >
                             Cek Detail
                             <img
-                                src="../../../../public/img/arrow-red.png"
+                                src="../../../../public/img/homepage/arrow-red.webp"
                                 alt="icon"
                                 class="h-10 w-8"
                             />
@@ -147,7 +147,7 @@ import { Link } from "@inertiajs/vue3";
                             class="w-28 h-28 rounded-full bg-[#FFE729] flex items-center justify-center mb-4 overflow-hidden"
                         >
                             <img
-                                src="../../../../public/img/global-learners.png"
+                                src="../../../../public/img/homepage/global-learners.webp"
                                 alt="Global Learners"
                                 class="object-cover w-full h-full rounded-full"
                             />
@@ -176,7 +176,7 @@ import { Link } from "@inertiajs/vue3";
                         >
                             Cek Detail
                             <img
-                                src="../../../../public/img/arrow-red.png"
+                                src="../../../../public/img/homepage/arrow-red.webp"
                                 alt="icon"
                                 class="h-10 w-8"
                             />

@@ -13,24 +13,26 @@
                 >
                     <h3 class="font-bold text-base">Personalized Learning</h3>
                     <img
-                        src="../../../../public/img/personalized.png"
+                        src="../../../../public/img/homepage/personalized.webp"
+                        alt="Personalized Learning"
                         class="mx-auto h-32 object-contain"
                     />
                     <p class="text-sm">Belajar 1-on-1 sesuai kebutuhanmu</p>
                 </div>
-
                 <!-- Card 2 -->
                 <div
                     class="bg-[#FE3231] w-1/2 text-white rounded-2xl p-4 text-center relative"
                 >
-                    <h3 class="font-bold text-base mb-6">Flexibility</h3>
+                    <h3 class="font-bold text-base mb-10">Flexibility</h3>
                     <img
-                        src="../../../../public/img/flexibility.png"
-                        class="mx-auto h-32 mb-1 object-contain"
+                        src="../../../../public/img/homepage/flexibility.webp"
+                        alt="Flexibility"
+                        class="mx-auto h-22 mb-6 object-contain"
                     />
                     <p class="text-sm">Bisa online/offline, pilih waktumu</p>
                     <img
-                        src="../../../../public/img/arrow.png"
+                        src="../../../../public/img/homepage/arrow.webp"
+                        alt="arrow"
                         class="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 object-contain"
                     />
                 </div>
@@ -48,7 +50,8 @@
                         Personalized Learning
                     </h3>
                     <img
-                        src="../../../../public/img/personalized.png"
+                        src="../../../../public/img/homepage/personalized.webp"
+                        alt="Personalized Learning"
                         class="mx-auto mb-4 h-40 object-contain"
                     />
                     <p class="text-lg mb-2">
@@ -59,10 +62,11 @@
                 <div
                     class="bg-[#FE3231] text-white rounded-2xl p-6 text-center shadow hover:shadow-lg transition"
                 >
-                    <h3 class="font-bold text-lg mb-3">Flexibility</h3>
+                    <h3 class="font-bold text-lg mb-7">Flexibility</h3>
                     <img
-                        src="../../../../public/img/flexibility.png"
-                        class="mx-auto mb-4 h-40 object-contain"
+                        src="../../../../public/img/homepage/flexibility.webp"
+                        alt="Flexibility"
+                        class="mx-auto mb-7 h-34 object-contain"
                     />
                     <p class="text-lg">Bisa online/offline, pilih waktumu</p>
                 </div>
@@ -72,7 +76,8 @@
                 >
                     <h3 class="font-bold text-lg mb-3">Quality Teacher</h3>
                     <img
-                        src="../../../../public/img/quality.png"
+                        src="../../../../public/img/homepage/quality.webp"
+                        alt="Quality Teacher"
                         class="mx-auto mb-4 h-40 object-contain"
                     />
                     <p class="text-lg">
@@ -85,7 +90,8 @@
                 >
                     <h3 class="font-bold text-lg mb-3">Fun Learning</h3>
                     <img
-                        src="../../../../public/img/fun.png"
+                        src="../../../../public/img/homepage/fun.webp"
+                        alt="Fun Learning"
                         class="mx-auto mb-4 h-40 object-contain"
                     />
                     <p class="text-lg">Belajar seru dan tidak membosankan</p>
@@ -94,7 +100,8 @@
                         class="absolute -right-5 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full font-bold shadow"
                     >
                         <img
-                            src="../../../../public/img/arrow.png"
+                            src="../../../../public/img/homepage/arrow.webp"
+                            alt="arrow"
                             class="mx-auto object-contain"
                         />
                     </div>

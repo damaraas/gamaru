@@ -6,11 +6,9 @@ import { SiWhatsapp } from "vue-icons-plus/si";
     <section class="bg-white py-16 font-sans">
         <!-- MOBILE VERSION -->
         <div class="md:hidden text-center px-6">
-            <!-- Teks -->
             <h2 class="font-bold text-[36px] leading-tight mb-4">
                 Yuk belajar Mandarin lebih mudah!
             </h2>
-            <!-- Button + Image -->
             <div class="flex items-center justify-center gap-4">
                 <a
                     href="https://wa.me/6285712230349"
@@ -21,8 +19,8 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     Chat MinXue
                 </a>
                 <img
-                    src="../../../../public/img/maskot-gamaru.png"
-                    alt="Panda Gamaru"
+                    src="../../../../public/img/homepage/maskot-gamaru.webp"
+                    alt="Maskot Panda Gamaru"
                     class="w-30"
                 />
             </div>
@@ -32,16 +30,13 @@ import { SiWhatsapp } from "vue-icons-plus/si";
         <div
             class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 place-items-center text-center md:text-left gap-6 px-6 hidden md:grid"
         >
-            <!-- Kolom 1: Teks -->
             <div class="flex justify-center md:justify-end">
                 <h2
                     class="font-bold text-[48px] leading-[100%] tracking-[0] text-center"
                 >
-                    Yuk belajar <br />
-                    Mandarin lebih mudah!
+                    Yuk belajar Mandarin lebih mudah!
                 </h2>
             </div>
-            <!-- Kolom 2: Tombol -->
             <div class="flex justify-center md:justify-center">
                 <a
                     href="https://wa.me/6285712230349"
@@ -52,11 +47,10 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     Chat MinXue
                 </a>
             </div>
-            <!-- Kolom 3: Logo -->
             <div class="flex justify-center">
                 <img
-                    src="../../../../public/img/maskot-gamaru.png"
-                    alt="Panda Gamaru"
+                    src="../../../../public/img/homepage/maskot-gamaru.webp"
+                    alt="Maskot Panda Gamaru"
                     class="max-w-60 w-full"
                 />
             </div>

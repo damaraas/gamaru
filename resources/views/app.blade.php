@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" href="{{ asset('/img/maskot-gamaru.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('/img/homepage/maskot-gamaru.webp') }}" type="image/webp">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @inertiaHead
 </head>

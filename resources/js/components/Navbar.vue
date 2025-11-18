@@ -17,7 +17,7 @@ const programOpen = ref(false);
           <div>
             <Link href="/" class="flex items-center gap-2">
               <img
-                src="../../../public/img/hero-bg.png"
+                src="../../../public/img/homepage/hero-bg.webp"
                 alt="GAMARU Les Privat Mandarin"
                 class="w-28 md:w-34"
               />

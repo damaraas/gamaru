@@ -12,8 +12,8 @@
                 class="bg-white border-2 rounded-xl p-5 flex gap-4 items-start"
             >
                 <img
-                    src="../../../../public/img/metode-convo.png"
-                    alt=""
+                    src="../../../../public/img/homepage/metode-convo.webp"
+                    alt="Metode Convo"
                     class="w-24 h-28 shrink-0 max-md:w-20 max-md:h-24"
                 />
                 <div>
@@ -37,8 +37,8 @@
                 class="bg-white border-2 rounded-xl p-5 flex gap-4 items-start"
             >
                 <img
-                    src="../../../../public/img/metode-hsk.png"
-                    alt=""
+                    src="../../../../public/img/homepage/metode-hsk.webp"
+                    alt="Metode HSK"
                     class="w-24 h-28 shrink-0 max-md:w-20 max-md:h-24"
                 />
                 <div>
@@ -61,8 +61,8 @@
                 class="bg-white border-2 rounded-xl p-5 flex gap-4 items-start"
             >
                 <img
-                    src="../../../../public/img/metode-anak.png"
-                    alt=""
+                    src="../../../../public/img/homepage/metode-anak.webp"
+                    alt="Metode Anak"
                     class="w-24 h-28 shrink-0 max-md:w-20 max-md:h-24"
                 />
                 <div>
@@ -85,8 +85,8 @@
                 class="bg-white border-2 rounded-xl p-5 flex gap-4 items-start"
             >
                 <img
-                    src="../../../../public/img/metode-dewasa.png"
-                    alt=""
+                    src="../../../../public/img/homepage/metode-dewasa.webp"
+                    alt="Metode Dewasa"
                     class="w-24 h-28 shrink-0 max-md:w-20 max-md:h-24"
                 />
                 <div>
@@ -109,8 +109,8 @@
                 class="bg-white border-2 rounded-xl p-5 flex gap-4 items-start"
             >
                 <img
-                    src="../../../../public/img/metode-film.png"
-                    alt=""
+                    src="../../../../public/img/homepage/metode-film.webp"
+                    alt="Metode Film dan Musik"
                     class="w-24 h-28 shrink-0 max-md:w-20 max-md:h-24"
                 />
                 <div>
@@ -134,8 +134,8 @@
                 class="bg-white border-2 rounded-xl p-5 flex gap-4 items-start"
             >
                 <img
-                    src="../../../../public/img/metode-progress.png"
-                    alt=""
+                    src="../../../../public/img/homepage/metode-progress.webp"
+                    alt="Metode Progress"
                     class="w-24 h-28 shrink-0 max-md:w-20 max-md:h-24"
                 />
                 <div>

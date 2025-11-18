@@ -4,7 +4,7 @@
     >
         <div class="absolute inset-0 flex justify-center">
             <div
-                class="max-w-6xl w-full bg-[url('../../../public/img/hero-bg.png')] bg-no-repeat bg-center bg-cover opacity-10"
+                class="max-w-6xl w-full bg-[url('../../../public/img/homepage/hero-bg.webp')] bg-no-repeat bg-center bg-cover opacity-10"
             ></div>
         </div>
         <div class="relative max-w-5xl md:max-w-5xl mx-auto px-4 z-10">
