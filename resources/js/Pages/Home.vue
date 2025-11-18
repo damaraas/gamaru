@@ -12,7 +12,30 @@ import CTA from "../Components/Home/CTA.vue";
 
 <template>
     <AppLayout>
-        <Head title="Gamaru - Les Privat Mandarin" />
+
+        <!-- Head -->
+        <Head>
+            <title>Gamaru - Les Privat Mandarin</title>
+            <meta
+                name="description"
+                content="Belajar Mandarin dengan metode personalized, mentor profesional, dan fleksibel."
+            />
+            <meta
+                name="keywords"
+                content="Gamaru, Les Privat Mandarin, kursus mandarin, belajar mandarin online"
+            />
+            <meta name="author" content="Gamaru" />
+            <meta property="og:title" content="Gamaru - Les Privat Mandarin" />
+            <meta
+                property="og:description"
+                content="Belajar Mandarin dengan cara paling mudah, efektif, dan menyenangkan."
+            />
+            <meta
+                property="og:image"
+                content="/img/homepage/maskot-gamaru.webp"
+            />
+            <meta property="og:url" content="/" />
+        </Head>
 
         <!-- Hero -->
         <Hero />
@@ -34,5 +57,6 @@ import CTA from "../Components/Home/CTA.vue";
 
         <!-- CTA -->
         <CTA />
+        
     </AppLayout>
 </template>
