@@ -7,7 +7,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-center mb-12">
                 <h2
-                    class="text-xl md:text-4xl md:max-w-xl font-bold text-center leading-[100%] tracking-[0]"
+                    class="text-2xl md:text-4xl md:max-w-xl font-bold text-center leading-[100%] tracking-[0]"
                 >
                     Program Les Privat Mandarin untuk Anak, Remaja, Dewasa
                 </h2>

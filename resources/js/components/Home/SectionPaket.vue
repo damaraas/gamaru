@@ -170,8 +170,8 @@ import { Link } from "@inertiajs/vue3";
                                 >Rp650.000</span
                             >
                         </p>
-                        <a
-                            href="#"
+                        <Link
+                            href="/global-program"
                             class="text-[#FF3B3B] font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
                         >
                             Cek Detail
@@ -180,7 +180,7 @@ import { Link } from "@inertiajs/vue3";
                                 alt="icon"
                                 class="h-10 w-8"
                             />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

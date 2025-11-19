@@ -21,8 +21,7 @@
                 diri mencapai target pembelajaranmu!
             </p>
             <a
-                href="https://wa.me/6285712230349"
-                target="_blank"
+                href="#paket"
                 class="bg-[#F9F905] text-black px-6 py-3 rounded-lg font-bold shadow-[0_4px_8px_0_#6B728040] hover:bg-yellow-500 transition"
             >
                 LIHAT PROGRAM

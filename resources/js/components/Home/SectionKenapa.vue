@@ -50,7 +50,7 @@ export default {
 
 <template>
     <section class="py-16 bg-white font-sans" id="kenapa">
-        <h2 class="text-2xl md:text-4xl font-bold text-center mb-10">
+        <h2 class="text-2xl md:text-4xl font-bold text-center mb-8 px-5">
             Kenapa Harus Les Privat Mandarin di Gamaru?
         </h2>
 

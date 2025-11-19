@@ -102,7 +102,10 @@
                 <span class="w-2 h-2 bg-black/40 rounded-full"></span>
             </div>
             <div class="w-7 h-7 flex items-center justify-center rounded-full">
-                <img src="../../../../public/img/homepage/arrow-right.webp" alt="icon arrow right" />
+                <img
+                    src="../../../../public/img/homepage/arrow-right.webp"
+                    alt="icon arrow right"
+                />
             </div>
         </div>
         <div class="relative w-full">

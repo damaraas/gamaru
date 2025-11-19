@@ -1,7 +1,7 @@
 <template>
     <section class="py-16 bg-white font-sans" id="metode">
         <h2
-            class="text-2xl md:text-4xl font-bold text-center mb-10 leading-[100%] tracking-[0] max-md:text-[18px]"
+            class="px-3 text-2xl md:text-4xl font-bold text-center mb-10 leading-[100%] tracking-[0] max-md:text-[24px]"
         >
             Metode Belajar Interaktif dan Fun di Gamaru
         </h2>
