@@ -18,6 +18,7 @@
 :root {
     --primary: #ff3030; /* Merah */
     --secondary: #ffba0a; /* kuning */
+    --green: #08cb00; /* Hijau */
 }
 
 
@@ -31,4 +32,8 @@
 
 .bg-secondary {
     background-color: var(--secondary);
+}
+
+.bg-green {
+    background-color: var(--green);
 }
