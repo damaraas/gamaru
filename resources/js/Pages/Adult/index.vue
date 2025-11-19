@@ -18,11 +18,11 @@ import Cta from "./Components/Cta.vue";
         </section>
 
         <section>
-            <Keunggulan />
+            <Layanan />
         </section>
 
         <section>
-            <Layanan />
+            <Keunggulan />
         </section>
 
         <section>
