@@ -98,7 +98,6 @@ import { Link } from "@inertiajs/vue3";
                             />
                         </Link>
                     </div>
-
                     <!-- Card 3 -->
                     <div class="flex flex-col items-center">
                         <div
@@ -128,8 +127,8 @@ import { Link } from "@inertiajs/vue3";
                                 >Rp600.000</span
                             >
                         </p>
-                        <a
-                            href="#"
+                        <Link
+                            href="/program-adult"
                             class="text-[#FF3B3B] font-bold text-[15px] md:text-[23.31px] leading-[100%] tracking-[0] text-center mt-1 flex items-center gap-1"
                         >
                             Cek Detail
@@ -138,9 +137,8 @@ import { Link } from "@inertiajs/vue3";
                                 alt="icon"
                                 class="h-10 w-8"
                             />
-                        </a>
+                        </Link>
                     </div>
-
                     <!-- Card 4 -->
                     <div class="flex flex-col items-center">
                         <div
