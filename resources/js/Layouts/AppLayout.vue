@@ -1,11 +1,13 @@
 <script>
 import Navbar from "../Components/Navbar.vue";
 import Footer from "../Components/Footer.vue";
+import FloatingWA from "../components/FloatingWA.vue";
 
 export default {
     components: {
         Navbar,
         Footer,
+        FloatingWA
     },
 };
 </script>
@@ -18,6 +20,9 @@ export default {
         <main class="flex-1">
             <slot />
         </main>
+
+        <!-- Tombol WA -->
+        <FloatingWA />
 
         <!-- Footer -->
         <Footer />

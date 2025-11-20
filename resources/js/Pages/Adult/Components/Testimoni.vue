@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 import { LuChevronLeft, LuChevronRight } from "vue-icons-plus/lu";
-import { Fa6ArrowLeft, Fa6ArrowRight } from 'vue-icons-plus/fa6'
+import { Fa6ArrowLeft, Fa6ArrowRight } from "vue-icons-plus/fa6";
 
 const testimonials = [
     {
@@ -88,18 +88,21 @@ onBeforeUnmount(() => {
                             :key="item.name"
                             class="rounded-2xl p-8 text-left flex lg:flex-col flex-row h-full"
                         >
-                            <div class="flex lg:flex-row flex-col space-x-6">
-                                <div class="lg:w-1/12 w-full">
+                            <div
+                                class="flex lg:flex-row flex-col space-x-6 justify-center"
+                            >
+                                <div class="lg:w-1/12 w-full h-[180px] lg:h-auto">
                                     <div class="relative">
                                         <!-- Polygon Background -->
                                         <div
-                                            class="absolute top-[1.2rem] left-[8.6rem]  -translate-x-[9.8rem] xl:left-[13rem] xl:top-[3.3rem] bg-primary z-0 rounded-full w-full max-w-[200px] xl:max-w-[300px] aspect-square"
+                                            class="absolute top-10 left-1/2 -translate-x-1/2 <!-- MOBILE CENTER --> lg:top-[1.2rem] lg:left-[8.6rem] lg:-translate-x-[9.8rem] <!-- DESKTOP POSITION --> xl:left-[13rem] xl:top-[3.3rem] bg-primary z-0 rounded-full w-full max-w-[150px] lg:max-w-[200px] xl:max-w-[300px] aspect-square"
                                         ></div>
+
                                         <!-- Gambar -->
                                         <img
-                                            :src="'/img/Adult/Gambar 6.webp'"
+                                            :src="'/img/Adult/testimoni.jpg'"
                                             alt="Student"
-                                            class="w-full relative rounded-full -left-3 border-4 border-white"
+                                            class="absolute left-[185px] -translate-x-1/2 mt-4 <!-- MOBILE CENTER --> lg:relative lg:-left-[10px] lg:translate-x-0 <!-- DESKTOP NORMAL --> lg:w-full max-w-[150px]  rounded-full border-4 border-white"
                                         />
                                     </div>
                                 </div>
@@ -109,17 +112,15 @@ onBeforeUnmount(() => {
                                     >
                                         “{{ item.desc }}”
                                     </p>
-                                    <h1
-                                        class=" font-medium text-xl flex-1 mt-3"
-                                    >
-                                       - {{ item.name }}
+                                    <h1 class="font-medium text-xl flex-1 mt-3">
+                                        - {{ item.name }}
                                     </h1>
                                 </div>
                                 <div class="lg:w-4/12 w-full lg:mt-0 mt-10">
                                     <div class="relative">
                                         <!-- Polygon Background -->
                                         <div
-                                            class="absolute  left-[11rem] lg:left-[10rem] -top-[1.2rem] -translate-x-[9.8rem] xl:left-[13rem] xl:top-[3.3rem] bg-primary z-0 rounded-full w-full max-w-[245px] lg:max-w-[300px] xl:max-w-[340px] aspect-square"
+                                            class="absolute left-[11rem] lg:left-[10rem] -top-[1.2rem] -translate-x-[9.8rem] xl:left-[13rem] xl:top-[3.3rem] bg-primary z-0 rounded-full w-full max-w-[245px] lg:max-w-[300px] xl:max-w-[340px] aspect-square"
                                         ></div>
                                         <!-- Gambar -->
                                         <img
@@ -150,18 +151,11 @@ onBeforeUnmount(() => {
                         :key="i"
                         @click="goToSlide(i - 1)"
                         class="w-3 h-3 rounded-full"
-                        :class="
-                            currentSlide === i - 1
-                                ? 'bg-black'
-                                : 'border '
-                        "
+                        :class="currentSlide === i - 1 ? 'bg-black' : 'border '"
                     ></button>
                 </div>
 
-                <button
-                    @click="nextSlide"
-                    class=" text-black p-2 "
-                >
+                <button @click="nextSlide" class="text-black p-2">
                     <Fa6ArrowRight class="w-5 h-5" />
                 </button>
             </div>
