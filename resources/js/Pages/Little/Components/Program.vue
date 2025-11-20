@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto">
       <!-- Header -->
       <div class="text-center mb-4">
-        <div class="inline-block bg-primary text-white px-6 py-3 rounded-lg text-xl font-bold mb-8">
+        <div class="inline-block bg-primary text-white px-8 py-4 rounded-lg text-xl font-bold mb-8">
           Little Learners (4-12 tahun)
         </div>
       </div>
@@ -18,7 +18,7 @@
             </svg>
           </div>
           <h3 class="font-bold text-2xl mb-2">Durasi</h3>
-          <p class="text-xl">50 menit/ sesi</p>
+          <p class="text-xl">90 menit/ sesi</p>
         </div>
 
         <!-- Harga -->
@@ -41,7 +41,7 @@
             </svg>
           </div>
           <h3 class="font-bold text-2xl mb-2">Fokus Utama</h3>
-          <p class="text-lg">Bernyanyi, permainan, flashcard, hafalan sederhana kosakata dasar, keadaan sehari-hari</p>
+          <p class="text-lg">Bernyanyi, permainan, flashcard, hafalan dasar, perkenalan Hanzi, kosakata sehari-hari</p>
         </div>
 
         <!-- Tujuan -->
@@ -52,7 +52,7 @@
             </svg>
           </div>
           <h3 class="font-bold text-2xl mb-2">Tujuan</h3>
-          <p class="text-lg">Membiasakan anak dengan bahasa Mandarin, meningkatkan rasa percaya diri, dan mendapat bekal sebagai pengenalan</p>
+          <p class="text-lg">​​Membiasakan anak dengan bahasa Mandarin sejak dini, meningkatkan rasa percaya diri, dan menjadikan belajar sebagai pengalaman menyenangkan</p>
         </div>
       </div>
     </div>

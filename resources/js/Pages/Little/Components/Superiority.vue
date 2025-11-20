@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto">
       <!-- Title -->
       <h2 class="text-center text-2xl md:text-3xl font-bold text-gray-800 mb-12">
-        Kenapa Harus Les Privat di<br>GAMARU?
+        Kenapa Harus Les Privat di GAMARU?
       </h2>
 
       <!-- Benefits Cards -->
@@ -61,8 +61,8 @@
       <!-- Dots Indicator -->
       <div class="flex justify-center gap-2 mt-8">
         <button v-for="(dot, index) in totalDots" :key="index" @click="goToSlide(index)"
-          class="w-3 h-3 rounded-full transition-colors"
-          :class="currentIndex === index ? 'bg-gray-800' : 'bg-gray-400'"></button>
+          class="w-5 h-5 rounded-full transition-colors"
+          :class="currentIndex === index ? 'bg-primary' : 'border-2 border-white'"></button>
       </div>
     </div>
   </section>

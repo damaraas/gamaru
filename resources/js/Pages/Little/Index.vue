@@ -6,6 +6,8 @@ import Hero from './Components/Hero.vue';
 import Program from './Components/Program.vue';
 import Superiority from './Components/superiority.vue';
 import Method from './Components/method.vue';
+import Testimoni from './Components/Testimoni.vue';
+import Cta from './Components/Cta.vue';
 
 </script>
 <template>
@@ -30,6 +32,13 @@ import Method from './Components/method.vue';
        <Method />
     </section>
 
+    <section>
+         <Testimoni />
+    </section>
+
+    <section>
+      <Cta />
+    </section>
   </AppLayout>
 </template>
 
