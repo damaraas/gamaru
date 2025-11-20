@@ -32,16 +32,19 @@ defineProps({
 
                     <!-- CTA Button -->
                     <a
-                        href="https://wa.me/6285712230349?text=Halo MinXue! Saya mau tanya info mengenai les privat Mandarin di GAMARU. Bisa dibantu?"
+                        :href="`https://wa.me/${whatsappNumber}?text=Halo MinXue! Saya mau tanya info mengenai les privat Mandarin di GAMARU. Bisa dibantu?`"
                         target="_blank"
-                        class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:inline-flex hidden"
+                        class="inline-flex items-center gap-3 bg-green text-white font-semibold 
+                               text-lg md:text-xl px-6 py-3 md:px-6 md:py-3 
+                               rounded-xl transition-all duration-300 
+                               hover:scale-[1.03] shadow-lg hover:shadow-xl"
                     >
-                        <Fa6Whatsapp class="w-10 h-10" />
+                        <Fa6Whatsapp class="w-8 h-8 md:w-7 md:h-7" />
                         {{ buttonText }}
                     </a>
                 </div>
 
-                <div class="relative flex justify-center items-center ">
+                <div class="relative flex justify-center items-center md:mt-4">
                     <!-- Circle Background -->
                     <div
                         class="absolute z-0 rounded-full bg-secondary w-52 h-52 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80"
