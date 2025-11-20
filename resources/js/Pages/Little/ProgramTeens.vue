@@ -317,35 +317,7 @@
         <!-- Section Keempat -->
 
         <!-- Section Kelima -->
-        <section class="bg-yellow-400 py-16 px-4 sm:px-6 lg:px-8">
-          <div class="max-w-7xl mx-auto flex flex-col items-center">
-            
-            <h2 class="text-4xl font-bold text-gray-800 text-center">Testimoni</h2>
-
-            <div class="flex flex-col lg:flex-row items-center justify-between w-full">
-
-              <div class="lg:w-3/5 flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-10 lg:mb-0">
-                <div class="flex-shrink-0">
-                  <img src="../../../../public/img/programteens/Testimoni-Gamaru-Siswa.webp" alt="Kevin Profile" class="w-24 h-24 rounded-full object-cover">
-                </div>
-
-                <div class="text-gray-800 max-w-xl text-justify font-semibold">
-                  <p class="text-lg italic mb-4">
-                    "Saya kuliah sambil kerja part-time, jadi butuh jadwal fleksibel. Untungnya di GAMARU bisa pilih belajar online. Tutornya menyesuaikan waktu saya, dan sekarang kemampuan Mandarin saya jauh lebih lancar untuk kebutuhan kuliah dan kerja."
-                  </p>
-                  <p class="font-semibold text-lg">Kevin, Mahasiswa - Jakarta</p>
-                </div>
-              </div>
-
-              <div class="lg:w-2/5 flex justify-center lg:justify-end">
-                <img src="../../../../public/img/programteens/Testimoni-Gamaru-Maskot.webp" alt="Panda Illustration" class=" object-contain">
-              </div>
-
-            </div>
-
-          </div>
-        </section>
-
+          <TestimonialSlider />
         <!-- Section Kelima -->
 
         <!-- Section Keenam -->
@@ -404,6 +376,7 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'; // Pastikan path ini benar
 import { ref, onMounted, onUnmounted, computed } from 'vue';
+import TestimonialSlider from './Components/TestimonialSlider.vue';
 
 // --- Data untuk Carousel Pertama ("Kenapa Harus Les Privat") ---
 const cardsData = [
@@ -566,5 +539,19 @@ p {
 
 .gamaru-hero-section h1 { 
   color: #ffffff;
+}
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>
