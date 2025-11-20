@@ -74,20 +74,20 @@ onUnmounted(() => {
       </h2>
 
       <!-- Testimoni Cards -->
-      <div class="overflow-hidden pt-20 pb-22 flex lg:flex-row flex-col items-center relative">
+      <div class="overflow-hidden lg:pt-26 lg:pb-26 md:py-8 py-0 flex lg:flex-row flex-col items-center relative">
         <div class="flex-1 w-full">
           <div ref="carouselTestimoni" class="flex transition-transform duration-500 ease-in-out"
             :style="{ transform: `translateX(calc(-${currentIndexTestimoni * 100}%))` }">
             <div v-for="(testimoni, index) in testimoni" :key="index"
               class="shrink-0 w-full flex flex-col lg:flex-row items-center" :style="{ width: 'calc(100%)' }">
 
-              <div class="lg:w-3/5 flex flex-row gap-2">
+              <div class="lg:w-3/5 flex lg:flex-row md:flex-row flex-col gap-2">
                 <!-- Foto testimoner -->
-                <div class="shrink-0">
+                <div class="shrink-0 flex justify-center lg:justify-start md:justify-start">
                   <img :src="testimoni.image" :alt="testimoni.name" class="w-40 h-40 object-contain">
                 </div>
                 <div>
-                  <p class="text-lg font-bold leading-relaxed text-justify">
+                  <p class="text-lg font-bold leading-relaxed text-justify md:mr-12">
                     {{ testimoni.testi }}
                   </p>
                   <br>
@@ -100,12 +100,7 @@ onUnmounted(() => {
           </div>
         </div>
 
-        <div class="hidden lg:flex absolute right-8">
-          <img src="../../../../../public/img/global/TestimoniGamaruMaskot.webp" alt="Gamaru Maskot" width="350">
-        </div>
-      </div>
-
-      <div class="flex justify-center items-center gap-2 z-20">
+        <div class="flex justify-center items-center lg:absolute gap-2 z-20 lg:bottom-2 lg:right-1/2 lg:translate-x-1/2 md:mt-8">
         <!-- Dots Indicator -->
         <button v-for="(dot, index) in totalDotsTestimoni" :key="index" @click="goToSlideTestimoni(index)"
           class="w-3 h-3 rounded-full border-2 border-black transition-all"
@@ -118,6 +113,11 @@ onUnmounted(() => {
           class="left-1/2 text-black p-3 transition-colors z-10">
           <i class="fa-solid fa-arrow-right text-2xl"></i>
         </button>
+        </div>
+
+        <div class="flex lg:absolute lg:right-8 md:mt-16 lg:mt-0">
+          <img src="../../../../../public/img/global/TestimoniGamaruMaskot.webp" alt="Gamaru Maskot" width="350" class="md:w-100">
+        </div>
       </div>
     </div>
   </section>
