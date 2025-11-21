@@ -35,7 +35,7 @@
             <div class="relative">
                 <!-- Polygon Background -->
                 <div
-                    class="absolute top-10 lg:top-[3.5rem] left-[12rem] lg:left-[12rem] -translate-x-[9.8rem] xl:left-[13rem] xl:top-[3.3rem] bg-[#ffba09] z-0 rounded-full w-full max-w-[245px] lg:max-w-[318px] xl:max-w-[340px] aspect-square"
+                    class="absolute top-10 lg:top-14 left-48 lg:left-48 -translate-x-[9.8rem] xl:left-52 xl:top-[3.3rem] bg-[#ffba09] z-0 rounded-full w-full max-w-[245px] lg:max-w-[318px] xl:max-w-[340px] aspect-square"
                 ></div>
                 <!-- Gambar -->
                 <img
