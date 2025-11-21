@@ -7,11 +7,11 @@
         <!-- LEFT CONTENT -->
         <div class="w-full lg:w-7/12 space-y-6 text-left py-5 lg:py-6 lg:px-10">
             <h1
-                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest"
+                class="text-4xl  md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest"
             >
                 Belajar Mandarin untuk Karier dan Kesuksesan Bisnis Anda
             </h1>
-            <p class="text-black text-xs sm:text-sm md:text-base font-medium">
+            <p class="text-black text-lg md:text-base font-medium text-justify">
                 <strong
                     >Ingin berkomunikasi lebih percaya diri dalam dunia
                     profesional?</strong
@@ -20,13 +20,13 @@
                 untuk kerja, menghadapi meeting, menjalin kerja sama bisnis,
                 atau mempersiapkan studi ke Tiongkok.
             </p>
-            <p class="text-black text-xs sm:text-sm md:text-base font-medium">
+            <p class="text-black text-lg  md:text-base font-medium text-justify">
                 Setiap sesi disusun secara personal agar hasilnya terasa nyata
                 dan relevan dengan bidangmu. Belajar dengan cara yang efisien,
                 fokus, dan berorientasi hasil.
             </p>
             <p
-                class="text-black text-xs sm:text-sm md:text-base font-medium mt-0"
+                class="text-black text-lg text-justify md:text-base font-medium mt-0"
             >
                 Mulai kursus Mandarin untuk Adults & Professionals (18+ tahun)
                 bersama Gamaru. Cek harga les bahasa Mandarin terbaru dan

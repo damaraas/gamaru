@@ -59,7 +59,7 @@ defineProps({
                 <a
                     href="https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?"
                     target="_blank"
-                    class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-6 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:hidden inline-flex"
+                    class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-6 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:hidden inline-flex mt-10"
                 >
                     <Fa6Whatsapp class="w-8 h-8" />
                     Japri Admin Sekarang
