@@ -60,7 +60,8 @@ import { Head } from "@inertiajs/vue3";
                             class="text-[#010101] text-[16px] md:text-2xl mb-1 font-medium text-justify font-sans"
                         >
                             Gamaru merupakan layanan les privat Mandarin yang
-                            berkomitmen menghadirkan pembelajaran terbaik.
+                            berkomitmen menghadirkan
+                            <b>pembelajaran terbaik</b>.
                         </p>
                         <p
                             class="text-[#010101] text-[16px] md:text-2xl font-medium text-justify font-sans"
@@ -358,16 +359,16 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                 </ul>
 
-                <div class="relative flex w-full mt-36">
+                <div class="relative flex w-full mt-48">
                     <img
                         src="../../../../public/img/karier/element.webp"
                         alt="element"
-                        class="w-[200px] rotate-[7.53deg] absolute -right-10 -bottom-22"
+                        class="w-[240px] rotate-[-7.53deg] absolute -right-10 -bottom-24"
                     />
                     <img
                         src="../../../../public/img/karier/tutor.webp"
                         alt="Tutor Mandarin"
-                        class="w-[220px] absolute -right-10 -bottom-8"
+                        class="w-[300px] absolute -right-10 -bottom-8"
                     />
                 </div>
             </div>
@@ -439,19 +440,6 @@ import { Head } from "@inertiajs/vue3";
                         <span>Sertifikat HSK(opsional) </span>
                     </li>
                 </ul>
-
-                <div class="relative flex w-full mt-48">
-                    <img
-                        src="../../../../public/img/karier/element-2.webp"
-                        alt="element 2"
-                        class="absolute right-14 -bottom-28 w-[260px] rotate-[15.05deg]"
-                    />
-                    <img
-                        src="../../../../public/img/karier/tutor-2.webp"
-                        alt="Tutor Mandarin 2"
-                        class="w-[260px] absolute right-18 -bottom-8"
-                    />
-                </div>
             </div>
 
             <!-- Mobile Version -->
@@ -499,16 +487,16 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                 </ul>
 
-                <div class="relative flex w-full mt-48">
+                <div class="relative flex w-full mt-56">
                     <img
                         src="../../../../public/img/karier/element-2.webp"
                         alt="element 2"
-                        class="absolute right-14 -bottom-28 w-[260px] rotate-[15.05deg]"
+                        class="absolute right-14 -bottom-28 w-[280px] rotate-[15.05 deg]"
                     />
                     <img
                         src="../../../../public/img/karier/tutor-2.webp"
                         alt="Tutor Mandarin 2"
-                        class="w-[260px] absolute right-18 -bottom-8"
+                        class="w-[300px] absolute right-18 -bottom-8"
                     />
                 </div>
             </div>
