@@ -1,12 +1,12 @@
 <script setup>
 import AppLayout from "@/Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
-import Hero from "../Components/Home/Hero.vue";
-import SectionKenapa from "../Components/Home/SectionKenapa.vue";
-import SectionProgram from "../Components/Home/SectionProgram.vue";
-import SectionMetode from "../Components/Home/SectionMetode.vue";
-import Testimoni from "../Components/Home/Testimoni.vue";
-import SectionPaket from "../Components/Home/SectionPaket.vue";
+import Hero from "../components/Home/Hero.vue";
+import SectionKenapa from "../components/Home/SectionKenapa.vue";
+import SectionProgram from "../components/Home/SectionProgram.vue";
+import SectionMetode from "../components/Home/SectionMetode.vue";
+import Testimoni from "../components/Home/Testimoni.vue";
+import SectionPaket from "../components/Home/SectionPaket.vue";
 import CTA from "../Components/Home/CTA.vue";
 </script>
 

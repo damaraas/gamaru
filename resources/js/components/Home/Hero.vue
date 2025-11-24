@@ -4,9 +4,11 @@
     >
         <div class="absolute inset-0 flex justify-center">
             <div
-                class="max-w-6xl w-full hero-bg bg-no-repeat bg-center bg-cover opacity-10"
+                class="max-w-6xl w-full bg-no-repeat bg-center bg-cover opacity-10"
+                style="background-image: url('/img/homepage/hero-bg.webp')"
             ></div>
         </div>
+
         <div class="relative max-w-5xl md:max-w-5xl mx-auto px-4 z-10">
             <h1
                 class="text-[25px] md:text-6xl text-[#010101] font-bold mb-4 leading-tight"
