@@ -80,7 +80,7 @@ import { Head } from "@inertiajs/vue3";
                 >
                     <div class="flex items-center gap-4 w-full">
                         <img
-                            src="../../../../public/img/karier/Maskot-Gamaru-02.webp"
+                            src="../../../public/img/karier/Maskot-Gamaru-02.webp"
                             alt="Maskot Panda Gamaru 2"
                             class="w-32"
                         />
@@ -212,7 +212,7 @@ import { Head } from "@inertiajs/vue3";
                 <!-- Maskot: mobile version -->
                 <div class="block md:hidden text-center">
                     <img
-                        src="../../../../public/img/karier/Maskot-Gamaru-03.webp"
+                        src="../../../public/img/karier/Maskot-Gamaru-03.webp"
                         alt="Maskot"
                         class="w-72 mx-auto"
                     />
@@ -285,7 +285,7 @@ import { Head } from "@inertiajs/vue3";
                     class="relative flex flex-col justify-center items-center z-20"
                 >
                     <img
-                        src="../../../../public/img/karier/element.webp"
+                        src="../../../public/img/karier/element.webp"
                         alt="element"
                         class="absolute right-10 -bottom-28 w-[260px] md:w-[300px] rotate-[7.53 deg]"
                     />
@@ -308,7 +308,7 @@ import { Head } from "@inertiajs/vue3";
                         class="flex justify-center items-center gap-3 text-justify"
                     >
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -318,7 +318,7 @@ import { Head } from "@inertiajs/vue3";
                         class="flex justify-center items-center gap-3 text-justify"
                     >
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -328,7 +328,7 @@ import { Head } from "@inertiajs/vue3";
                         class="flex justify-center items-center gap-3 text-justify"
                     >
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -338,7 +338,7 @@ import { Head } from "@inertiajs/vue3";
                         class="flex justify-center items-center gap-3 text-justify"
                     >
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -348,7 +348,7 @@ import { Head } from "@inertiajs/vue3";
                         class="flex justify-center items-center gap-3 text-justify"
                     >
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -361,12 +361,12 @@ import { Head } from "@inertiajs/vue3";
 
                 <div class="relative flex w-full mt-48">
                     <img
-                        src="../../../../public/img/karier/element.webp"
+                        src="../../../public/img/karier/element.webp"
                         alt="element"
                         class="w-[240px] rotate-[-7.53deg] absolute -right-10 -bottom-24"
                     />
                     <img
-                        src="../../../../public/img/karier/tutor.webp"
+                        src="../../../public/img/karier/tutor.webp"
                         alt="Tutor Mandarin"
                         class="w-[300px] absolute -right-10 -bottom-8"
                     />
@@ -389,12 +389,12 @@ import { Head } from "@inertiajs/vue3";
                     class="relative flex flex-col justify-center items-center z-20"
                 >
                     <img
-                        src="../../../../public/img/karier/element-2.webp"
+                        src="../../../public/img/karier/element-2.webp"
                         alt="element 2"
                         class="absolute right-18 -bottom-28 w-[260px] md:w-[300px] rotate-[15.05deg]"
                     />
                     <img
-                        src="../../../../public/img/karier/tutor-2.webp"
+                        src="../../../public/img/karier/tutor-2.webp"
                         alt="Tutor Mandarin 2"
                         class="w-[260px] md:w-[330px] absolute right-20 -bottom-8"
                     />
@@ -409,7 +409,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -417,7 +417,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -425,7 +425,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -433,7 +433,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -455,7 +455,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -463,7 +463,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -471,7 +471,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -479,7 +479,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -489,12 +489,12 @@ import { Head } from "@inertiajs/vue3";
 
                 <div class="relative flex w-full mt-56">
                     <img
-                        src="../../../../public/img/karier/element-2.webp"
+                        src="../../../public/img/karier/element-2.webp"
                         alt="element 2"
                         class="absolute right-14 -bottom-28 w-[280px] rotate-[15.05 deg]"
                     />
                     <img
-                        src="../../../../public/img/karier/tutor-2.webp"
+                        src="../../../public/img/karier/tutor-2.webp"
                         alt="Tutor Mandarin 2"
                         class="w-[300px] absolute right-18 -bottom-8"
                     />
