@@ -64,6 +64,7 @@ const toggleFaq = (index) => {
 </script>
 
 <template>
+    <Head title="FAQ & Tentang GAMARU Les Privat Mandarin" />
     <AppLayout>
         <section>
             <div class="max-w-full mx-auto">
