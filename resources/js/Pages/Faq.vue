@@ -1,5 +1,6 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
+import { Head } from '@inertiajs/vue3'
 import { ref } from "vue";
 import { Fa6Whatsapp } from "vue-icons-plus/fa6";
 
