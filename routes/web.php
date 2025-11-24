@@ -28,5 +28,5 @@ Route::get('/karier', function () {
 });
 
 Route::get('/FAQ', function () {
-    return Inertia::render('Karir');
+    return Inertia::render('Faq');
 });
