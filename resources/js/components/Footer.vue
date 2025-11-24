@@ -66,7 +66,7 @@ import { BsLinkedin } from "vue-icons-plus/bs";
             <Link href="/blog" class="hover:underline">Blog</Link>
           </li>
           <li>
-            <Link href="/faq-bantuan" class="hover:underline">FAQ</Link>
+            <Link href="/FAQ" class="hover:underline">FAQ</Link>
           </li>
         </ul>
         </div>
