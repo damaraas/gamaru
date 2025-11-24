@@ -51,7 +51,3 @@
 .font-primary {
     color: var(--primary);
 }
-
-.hero-bg {
-    background-image: url('../../../public/img/homepage/hero-bg.webp');
-}
