@@ -26,3 +26,7 @@ Route::get('/global-program', function () {
 Route::get('/karier', function () {
     return Inertia::render('Karir');
 });
+
+Route::get('/FAQ', function () {
+    return Inertia::render('Faq');
+});

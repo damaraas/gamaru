@@ -51,7 +51,7 @@ import { Head } from "@inertiajs/vue3";
                     class="hidden md:flex items-center gap-8 max-w-5xl mx-auto"
                 >
                     <img
-                        src="../../../../public/img/karier/Maskot-Gamaru-02.webp"
+                        src="../../../public/img/karier/Maskot-Gamaru-02.webp"
                         alt="Maskot Panda Gamaru 2"
                         class="w-60"
                     />
@@ -117,7 +117,7 @@ import { Head } from "@inertiajs/vue3";
                         class="bg-[#FE3231] p-6 rounded-2xl text-center text-white shadow-md"
                     >
                         <img
-                            src="../../../../public/img/karier/icon-jadwal.webp"
+                            src="../../../public/img/karier/icon-jadwal.webp"
                             alt="Jadwal fleksibel"
                             class="w-20 mx-auto mb-5 mt-3"
                         />
@@ -134,7 +134,7 @@ import { Head } from "@inertiajs/vue3";
                         class="bg-[#FE3231] p-6 rounded-2xl text-center text-white shadow-md"
                     >
                         <img
-                            src="../../../../public/img/karier/icon-rate.webp"
+                            src="../../../public/img/karier/icon-rate.webp"
                             alt="Rate kompetitif"
                             class="w-20 mx-auto mb-4"
                         />
@@ -151,7 +151,7 @@ import { Head } from "@inertiajs/vue3";
                         class="bg-[#FE3231] p-6 rounded-2xl text-center text-white shadow-md"
                     >
                         <img
-                            src="../../../../public/img/karier/icon-dukungan.webp"
+                            src="../../../public/img/karier/icon-dukungan.webp"
                             alt="Dukungan penuh"
                             class="w-20 mx-auto mb-5 mt-4"
                         />
@@ -165,7 +165,7 @@ import { Head } from "@inertiajs/vue3";
                 </div>
                 <!-- Maskot: desktop versi -->
                 <img
-                    src="../../../../public/img/karier/Maskot-Gamaru-03.webp"
+                    src="../../../public/img/karier/Maskot-Gamaru-03.webp"
                     alt="Maskot"
                     class="hidden md:block w-70 absolute left-5 top-[78%] -translate-y-1/2"
                 />
@@ -178,7 +178,7 @@ import { Head } from "@inertiajs/vue3";
                         class="bg-[#FE3231] p-6 rounded-2xl text-center text-white shadow-md"
                     >
                         <img
-                            src="../../../../public/img/karier/icon-exposure.webp"
+                            src="../../../public/img/karier/icon-exposure.webp"
                             alt="Exposure besar"
                             class="w-20 mx-auto mb-4"
                         />
@@ -195,7 +195,7 @@ import { Head } from "@inertiajs/vue3";
                         class="bg-[#FE3231] p-6 rounded-2xl text-center text-white shadow-md"
                     >
                         <img
-                            src="../../../../public/img/karier/icon-kembang.webp"
+                            src="../../../public/img/karier/icon-kembang.webp"
                             alt="Kesempatan berkembang"
                             class="w-20 mx-auto mb-4"
                         />
@@ -235,7 +235,7 @@ import { Head } from "@inertiajs/vue3";
                 >
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -244,7 +244,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -252,7 +252,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -260,7 +260,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -269,7 +269,7 @@ import { Head } from "@inertiajs/vue3";
                     </li>
                     <li class="flex items-center gap-3">
                         <img
-                            src="../../../../public/img/karier/check.webp"
+                            src="../../../public/img/karier/check.webp"
                             class="w-9"
                             alt="check"
                         />
@@ -289,7 +289,7 @@ import { Head } from "@inertiajs/vue3";
                         class="absolute right-10 -bottom-28 w-[260px] md:w-[300px] rotate-[7.53 deg]"
                     />
                     <img
-                        src="../../../../public/img/karier/tutor.webp"
+                        src="../../../public/img/karier/tutor.webp"
                         alt="Tutor Mandarin"
                         class="w-[260px] md:w-[360px] absolute -bottom-8"
                     />
@@ -439,6 +439,19 @@ import { Head } from "@inertiajs/vue3";
                         <span>Sertifikat HSK(opsional) </span>
                     </li>
                 </ul>
+
+                <div class="relative flex w-full mt-48">
+                    <img
+                        src="../../../../public/img/karier/element-2.webp"
+                        alt="element 2"
+                        class="absolute right-14 -bottom-28 w-[260px] rotate-[15.05deg]"
+                    />
+                    <img
+                        src="../../../../public/img/karier/tutor-2.webp"
+                        alt="Tutor Mandarin 2"
+                        class="w-[260px] absolute right-18 -bottom-8"
+                    />
+                </div>
             </div>
 
             <!-- Mobile Version -->
