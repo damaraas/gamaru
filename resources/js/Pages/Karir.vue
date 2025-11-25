@@ -76,16 +76,16 @@ import { Head } from "@inertiajs/vue3";
 
                 <!-- Mobile Version -->
                 <div
-                    class="flex flex-col md:hidden items-start gap-1 max-w-full mx-auto"
+                    class="flex flex-col md:hidden items-start max-w-full mx-auto"
                 >
-                    <div class="flex items-center gap-4 w-full">
+                    <div class="flex items-center gap-2 w-full">
                         <img
                             src="../../../../public/img/karier/Maskot-Gamaru-02.webp"
                             alt="Maskot Panda Gamaru 2"
                             class="w-32"
                         />
                         <p
-                            class="text-[#010101] text-[16px] font-medium font-sans text-justify"
+                            class="text-[#010101] text-[15px] font-medium font-sans text-justify"
                         >
                             Gamaru merupakan layanan les privat Mandarin yang
                             berkomitmen menghadirkan
@@ -93,7 +93,7 @@ import { Head } from "@inertiajs/vue3";
                         </p>
                     </div>
                     <p
-                        class="text-[#010101] text-[16px] font-medium font-sans text-justify"
+                        class="text-[#010101] text-[15px] font-medium font-sans text-justify"
                     >
                         Kami mencari tutor yang bersemangat dan kompeten untuk
                         membimbing siswa dari berbagai jenjang, sekaligus
@@ -515,7 +515,7 @@ import { Head } from "@inertiajs/vue3";
                     kami!
                 </p>
                 <a
-                    href="https://wa.me/6285712230349"
+                    href="https://wa.me/6285712230349?text=Hai%20Min%2C%20aku%20tertarik%20jadi%20bagian%20dari%20Gamaru"
                     class="bg-[#08CB00] w-[314px] h-[60px] rounded-[9px] inline-flex items-center justify-center text-white font-sans font-bold text-xl shadow-[0px_4px_9px_0px_rgba(0,0,0,0.25)] px-[13px] py-[9px] mx-auto hover:bg-green-600"
                 >
                     Apply Now

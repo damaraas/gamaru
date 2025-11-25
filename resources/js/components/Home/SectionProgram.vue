@@ -14,7 +14,6 @@ import { SiWhatsapp } from "vue-icons-plus/si";
             </div>
 
             <div class="space-y-10">
-                <!-- Anak -->
                 <div
                     class="relative bg-[#FE3231] text-white rounded-[20px] px-8 py-10 overflow-hidden max-md:flex max-md:flex-col max-md:items-center max-md:gap-6 max-md:text-start max-md:px-5 max-md:py-7 max-md:pb-50"
                 >
@@ -46,7 +45,6 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                             </li>
                         </ul>
                     </div>
-
                     <img
                         src="../../../../public/img/homepage/anak.webp"
                         alt="Anak"
@@ -54,7 +52,6 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     />
                 </div>
 
-                <!-- Remaja -->
                 <div
                     class="relative bg-[#FE3231] text-white rounded-[20px] px-8 py-10 overflow-hidden max-md:flex max-md:flex-col max-md:items-center max-md:gap-6 max-md:text-start max-md:px-5 max-md:py-7 max-md:pb-50"
                 >
@@ -88,7 +85,6 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                             </li>
                         </ul>
                     </div>
-
                     <img
                         src="../../../../public/img/homepage/remaja.webp"
                         alt="Remaja"
@@ -96,7 +92,6 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     />
                 </div>
 
-                <!-- Dewasa -->
                 <div
                     class="relative bg-[#FE3231] text-white rounded-[20px] px-8 py-10 overflow-hidden max-md:flex max-md:flex-col max-md:items-center max-md:gap-6 max-md:text-start max-md:px-5 max-md:py-7"
                 >
@@ -125,7 +120,6 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                             <li>Komunikasi intensif dengan guru native</li>
                         </ul>
                     </div>
-
                     <img
                         src="../../../../public/img/homepage/dewasa.webp"
                         alt="Dewasa"
@@ -133,10 +127,9 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     />
                 </div>
 
-                <!-- Button -->
                 <div class="flex justify-center">
                     <a
-                        href="https://wa.me/6285712230349"
+                        href="https://wa.me/6285712230349?text=Halo%20MinXue!%20Saya%20mau%20tanya%20info%20mengenai%20les%20privat%20Mandarin%20di%20GAMARU.%20Bisa%20dibantu?%20%F0%9F%98%8A"
                         target="_blank"
                         class="inline-flex items-center bg-[#08CB00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#00c250] transition shadow-[0px_4.39px_9.38px_0px_#00000040]"
                     >
