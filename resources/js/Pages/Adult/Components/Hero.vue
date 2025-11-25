@@ -2,7 +2,7 @@
 
 <template>
     <div
-        class="flex flex-col lg:flex-row px-5 md:px-10 w-full py-3 bg-primary font-poppins"
+        class="flex flex-col lg:flex-row px-6 md:px-10 w-full py-4 bg-primary font-poppins"
     >
         <!-- LEFT CONTENT -->
         <div class="w-full lg:w-7/12 space-y-6 text-left py-5 lg:py-6 lg:px-10">

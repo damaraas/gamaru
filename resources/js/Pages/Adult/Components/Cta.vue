@@ -8,11 +8,11 @@ defineProps({
     },
     title: {
         type: String,
-        default: "Butuh Les Privat?",
+        default: "Yuk, mulai perjalanan belajarmu bersama Gamaru.",
     },
     buttonText: {
         type: String,
-        default: "Japri Admin Sekarang",
+        default: "Chat Minxue",
     },
 });
 </script>
@@ -20,50 +20,43 @@ defineProps({
     <section class="bg-primary py-16 px-7">
         <div class="max-w-6xl mx-auto">
             <div
-                class="flex flex-col lg:flex-row items-center justify-between lg:gap-8 gap-0"
+                class="flex flex-col lg:flex-row items-center justify-between lg:gap-2 gap-0 lg:ml-12"
             >
                 <!-- Text Content -->
                 <div class="text-center lg:text-left lg:flex-1">
                     <h2
-                        class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight"
+                        class="text-3xl md:text-5xl font-bold text-white mb-8"
                     >
-                        Yuk, Mulai Perjalanan Belajarmu Bersama Gamaru?
+                        {{ title }}
                     </h2>
 
                     <!-- CTA Button -->
                     <a
-                        href="https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?"
+                        :href="`https://wa.me/${whatsappNumber}?text=Halo MinXue! Saya mau tanya info mengenai les privat Mandarin di GAMARU. Bisa dibantu?`"
                         target="_blank"
-                        class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:inline-flex hidden"
+                        class="inline-flex items-center gap-3 bg-green text-white font-semibold 
+                               text-lg md:text-xl px-6 py-3 md:px-6 md:py-3 
+                               rounded-xl transition-all duration-300 
+                               hover:scale-[1.03] shadow-lg hover:shadow-xl"
                     >
-                        <Fa6Whatsapp class="w-10 h-10" />
-                        Japri Admin Sekarang
+                        <Fa6Whatsapp class="w-8 h-8 md:w-7 md:h-7" />
+                        {{ buttonText }}
                     </a>
                 </div>
 
-                <!-- Lightbulb Character -->
-                <div class="relative flex justify-center items-center ">
+                <div class="relative flex justify-center items-center md:mt-4">
                     <!-- Circle Background -->
                     <div
-                        class="absolute z-0 rounded-full bg-secondary  sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-96 lg:h-96"
+                        class="absolute z-0 rounded-full bg-secondary w-52 h-52 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80"
                     ></div>
 
                     <!-- Maskot Image -->
                     <img
-                        :src="'/img/Adult/maskot-gamaru.png'"
+                        :src="'/img/global/MaskotGamaru-10.webp'"
                         alt="Lightbulb Character"
-                        class="relative z-10 w-72 sm:w-60 md:w-72 lg:w-[370px] h-auto"
+                        class="relative z-10 w-72 sm:w-60 md:w-72 lg:w-[440px] h-auto"
                     />
                 </div>
-
-                <a
-                    href="https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?"
-                    target="_blank"
-                    class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-6 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:hidden inline-flex mt-10"
-                >
-                    <Fa6Whatsapp class="w-8 h-8" />
-                    Japri Admin Sekarang
-                </a>
             </div>
         </div>
     </section>

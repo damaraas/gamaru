@@ -1,7 +1,6 @@
 <script setup>
-import {Io5PricetagsOutline } from 'vue-icons-plus/io5'
 import { MdTrackChanges } from "vue-icons-plus/md";
-import { Fa6Bullseye, Fa6RegClock } from 'vue-icons-plus/fa6'
+import { Fa6Bullseye, Fa6RegClock, Fa6Tag } from 'vue-icons-plus/fa6'
 const cards = [
   {
     icon: Fa6RegClock,
@@ -9,7 +8,7 @@ const cards = [
     desc: "90 Menit/Sesi",
   },
   {
-    icon: Io5PricetagsOutline,
+    icon: Fa6Tag,
     title: "Harga",
     desc: "Rp600.000/Sesi",
   },
@@ -40,16 +39,16 @@ const cards = [
       >
         <!-- Icon Red Circle -->
         <div
-          class="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center mb-4"
+          class="w-18 h-18 bg-red-500 rounded-full flex items-center justify-center mb-4"
         >
           <component
             :is="item.icon"
-            class="text-white text-3xl w-7 h-7"
+            class="text-white text-3xl w-10 h-10"
           />
         </div>
 
-        <h3 class="text-lg font-bold mb-2">{{ item.title }}</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">
+        <h3 class="text-2xl font-bold mb-2">{{ item.title }}</h3>
+        <p class="text-gray-600 text-xl leading-relaxed">
           {{ item.desc }}
         </p>
       </div>

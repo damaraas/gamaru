@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
         <div class="flex transition-transform duration-500"
           :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
           <!-- Slide -->
-          <div v-for="(slide, slideIndex) in totalSlides" :key="slideIndex" class="w-full shrink-0 grid gap-6 px-2"
+          <div v-for="(slide, slideIndex) in totalSlides" :key="slideIndex" class="w-full shrink-0 grid gap-6 px-5"
             :class="{
               'grid-cols-1': itemsPerSlide === 1,
               'grid-cols-2': itemsPerSlide === 2,
@@ -97,7 +97,7 @@ onBeforeUnmount(() => {
             )" :key="idx" class="rounded-2xl p-8 text-left flex flex-col  h-full border-gray-300 border-2">
               <!-- Header (Gambar + Title) -->
               <div class="flex flex-col lg:flex-row items-center justify-center gap-6">
-                <img :src="item.img" alt="Card image" class="w-44 h-44 object-cover rounded-xl" />
+                <img :src="item.img" alt="Card image" class="lg:w-28 lg:h-28 h-24 w-24 object-cover rounded-xl" />
 
                 <h1 class="font-primary font-bold text-2xl text-center lg:text-left">
                   {{ item.name }}
@@ -116,11 +116,11 @@ onBeforeUnmount(() => {
         <!-- Navigation Buttons -->
         <button @click="prevSlide"
           class="absolute left-2 top-1/2 -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow">
-          <LuChevronLeft class="w-5 h-5" />
+          <LuChevronLeft class="w-8 h-8" />
         </button>
         <button @click="nextSlide"
           class="absolute right-2 top-1/2 -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow">
-          <LuChevronRight class="w-5 h-5" />
+          <LuChevronRight class="w-8 h-8" />
         </button>
       </div>
 
