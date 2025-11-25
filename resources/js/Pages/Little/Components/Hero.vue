@@ -7,11 +7,11 @@
         <!-- LEFT CONTENT -->
         <div class="w-full lg:w-7/12 space-y-6 text-left py-5 px-4 lg:py-6 lg:px-10">
             <h1
-                class="text-2xl lg:text-start text-center sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest"
+                class="text-4xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest"
             >
                 Belajar Mandarin Seru untuk Anak Usia Dini
             </h1>
-            <p class="text-black text-xs sm:text-sm md:text-base font-medium text-justify">
+            <p class="ext-black text-xs sm:text-sm md:text-base font-medium">
                 Belajar bahasa asing sejak kecil bisa jadi menyenangkan loh
                 Moms! Program Little Learners (4-12 tahun) dirancang untuk
                 anak-anak yang baru mulai mengenal Mandarin lewat lagu,

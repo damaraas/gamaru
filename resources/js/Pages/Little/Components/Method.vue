@@ -110,7 +110,7 @@ onBeforeUnmount(() => {
                 <img
                   :src="item.img"
                   alt="Card image"
-                  class="w-44 h-44 object-cover rounded-xl"
+                  class="lg:w-28 lg:h-w-28 h-20 w-20 object-cover rounded-xl"
                 />
 
                 <h1 class="font-primary font-bold text-2xl flex-1">
