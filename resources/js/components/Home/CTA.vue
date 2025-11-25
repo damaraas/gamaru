@@ -1,5 +1,10 @@
 <script setup>
 import { SiWhatsapp } from "vue-icons-plus/si";
+
+const phone = "6285712230349"; // nomor WA
+const message =
+    "Halo MinXue! Saya mau tanya info mengenai les privat Mandarin di GAMARU. Bisa dibantu? 😊";
+const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 </script>
 
 <template>
@@ -11,7 +16,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
             </h2>
             <div class="flex items-center justify-center gap-4">
                 <a
-                    href="https://wa.me/6285712230349"
+                    :href="waUrl"
                     target="_blank"
                     class="inline-flex items-center bg-[#08CB00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#00c250] transition shadow-[0px_4.39px_9.32px_0px_#00000040]"
                 >
@@ -39,7 +44,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
             </div>
             <div class="flex justify-center md:justify-center">
                 <a
-                    href="https://wa.me/6285712230349"
+                    :href="waUrl"
                     target="_blank"
                     class="inline-flex items-center bg-[#08CB00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#00c250] transition shadow-[0px_4.39px_9.32px_0px_#00000040]"
                 >

@@ -47,7 +47,7 @@ const programOpen = ref(false);
                 >
                     <Link href="/little-program" class="block px-4 py-2 hover:bg-gray-100">Program Little</Link>
                     <Link href="/program-teens" class="block px-4 py-2 hover:bg-gray-100">Program Teens</Link>
-                    <Link href="/adult-program" class="block px-4 py-2 hover:bg-gray-100">Program Adult</Link>
+                    <Link href="/program-adult" class="block px-4 py-2 hover:bg-gray-100">Program Adult</Link>
                     <Link href="/global-program" class="block px-4 py-2 hover:bg-gray-100">Program Global</Link>
                 </div>
               </li>
@@ -140,7 +140,7 @@ const programOpen = ref(false);
             <div v-if="programOpen" class="bg-gray-50">
                 <Link href="/little-program" class="block px-12 py-2 hover:bg-gray-100">Program Little</Link>
                 <Link href="/program-teens" class="block px-12 py-2 hover:bg-gray-100">Program Teens</Link>
-                <Link href="/adult-program" class="block px-12 py-2 hover:bg-gray-100">Program Adult</Link>
+                <Link href="/program-adult" class="block px-12 py-2 hover:bg-gray-100">Program Adult</Link>
                 <Link href="/global-program" class="block px-12 py-2 hover:bg-gray-100">Program Global</Link>
             </div>
           </li>

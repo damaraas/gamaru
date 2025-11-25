@@ -22,3 +22,11 @@ Route::get('/program-teens', function () {
 Route::get('/global-program', function () {
     return Inertia::render('Global/Index');
 });
+
+Route::get('/karier', function () {
+    return Inertia::render('Karir');
+});
+
+Route::get('/FAQ', function () {
+    return Inertia::render('Faq');
+});

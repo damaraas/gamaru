@@ -45,8 +45,8 @@ const goToSlide = (i) => {
 const nextSlide = () =>
     (currentSlide.value = (currentSlide.value + 1) % totalSlides.value);
 const prevSlide = () =>
-    (currentSlide.value =
-        (currentSlide.value - 1 + totalSlides.value) % totalSlides.value);
+(currentSlide.value =
+    (currentSlide.value - 1 + totalSlides.value) % totalSlides.value);
 
 // Tidak butuh updateItemsPerSlide lagi
 // Tapi kalau tetap ingin struktur rapi, kita set saja selalu 1
@@ -69,65 +69,51 @@ onBeforeUnmount(() => {
             <h2 class="text-4xl font-bold mb-7">Testimoni</h2>
 
             <div class="relative overflow-hidden">
-                <div
-                    class="flex transition-transform duration-500"
-                    :style="{
-                        transform: `translateX(-${currentSlide * 100}%)`,
-                    }"
-                >
-                    <div
-                        v-for="(slide, slideIndex) in totalSlides"
-                        :key="slideIndex"
-                        class="w-full flex-shrink-0 grid grid-cols-1 gap-6 px-2"
-                    >
-                        <div
-                            v-for="item in testimonials.slice(
-                                slideIndex * itemsPerSlide,
-                                (slideIndex + 1) * itemsPerSlide
-                            )"
-                            :key="item.name"
-                            class="rounded-2xl p-8 text-left flex lg:flex-col flex-row h-full"
-                        >
+                <div class="flex transition-transform duration-500" :style="{
+                    transform: `translateX(-${currentSlide * 100}%)`,
+                }">
+                    <div v-for="(slide, slideIndex) in totalSlides" :key="slideIndex"
+                        class="w-full shrink-0 grid grid-cols-1 gap-6 px-2">
+                        <div v-for="item in testimonials.slice(
+                            slideIndex * itemsPerSlide,
+                            (slideIndex + 1) * itemsPerSlide
+                        )" :key="item.name" class="rounded-2xl p-8 text-left flex lg:flex-col flex-row h-full">
                             <div
-                                class="flex lg:flex-row flex-col space-x-6 justify-center"
-                            >
-                                <div class="lg:w-1/12 w-full h-[180px] lg:h-auto">
-                                    <div class="relative">
+                                class="flex lg:flex-row flex-col lg:space-x-6 justify-center items-center lg:items-start w-full">
+                                <!-- Profile Image Section -->
+                                <div class="lg:w-1/12 w-full h-[180px] lg:h-auto flex justify-center lg:justify-start">
+                                    <div class="relative w-[150px] lg:w-full lg:max-w-[200px] xl:max-w-[300px]">
                                         <!-- Polygon Background -->
                                         <div
-                                            class="absolute top-10 left-1/2 -translate-x-1/2 <!-- MOBILE CENTER --> lg:top-[1.2rem] lg:left-[8.6rem] lg:-translate-x-[9.8rem] <!-- DESKTOP POSITION --> xl:left-[13rem] xl:top-[3.3rem] bg-primary z-0 rounded-full w-full max-w-[150px] lg:max-w-[200px] xl:max-w-[300px] aspect-square"
-                                        ></div>
+                                            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:top-5 lg:left-0 lg:translate-x-0 lg:translate-y-0 bg-primary z-0 rounded-full w-[150px] lg:w-full aspect-square">
+                                        </div>
 
                                         <!-- Gambar -->
-                                        <img
-                                            :src="'/img/Adult/testimoni.jpg'"
-                                            alt="Student"
-                                            class="absolute left-[185px] -translate-x-1/2 mt-4 <!-- MOBILE CENTER --> lg:relative lg:-left-[10px] lg:translate-x-0 <!-- DESKTOP NORMAL --> lg:w-full max-w-[150px]  rounded-full border-4 border-white"
-                                        />
+                                        <img :src="'/img/Adult/testimoni.jpg'" alt="Student" class="relative z-10 w-[150px] lg:w-full aspect-square rounded-full object-cover border-4 border-white mx-auto lg:mx-0" />
+
                                     </div>
                                 </div>
-                                <div class="lg:w-6/12 w-full lg:mt-0 mt-5">
-                                    <p
-                                        class="text-black font-bold text-xl leading-relaxed mt-2"
-                                    >
-                                        “{{ item.desc }}”
+
+                                <!-- Text Content -->
+                                <div class="lg:w-6/12 w-full lg:mt-0 mt-5 text-center lg:text-left">
+                                    <p class="text-black font-bold text-xl leading-relaxed mt-2">
+                                        "{{ item.desc }}"
                                     </p>
                                     <h1 class="font-medium text-xl flex-1 mt-3">
                                         - {{ item.name }}
                                     </h1>
                                 </div>
-                                <div class="lg:w-4/12 w-full lg:mt-0 mt-10">
-                                    <div class="relative">
+
+                                <!-- Mascot Image Section -->
+                                <div class="lg:w-4/12 w-full lg:mt-0 mt-10 flex justify-center lg:justify-end">
+                                    <div class="relative w-full max-w-[320px] lg:max-w-[440px] xl:max-w-[465px]">
                                         <!-- Polygon Background -->
                                         <div
-                                            class="absolute left-[11rem] lg:left-[10rem] -top-[1.2rem] -translate-x-[9.8rem] xl:left-[13rem] xl:top-[3.3rem] bg-primary z-0 rounded-full w-full max-w-[245px] lg:max-w-[300px] xl:max-w-[340px] aspect-square"
-                                        ></div>
+                                            class="absolute left-1/2 -translate-x-1/2 -top-5 lg:left-auto lg:right-10 lg:translate-x-0 xl:right-14 bg-primary z-0 rounded-full w-[245px] lg:w-[300px] xl:w-[340px] aspect-square">
+                                        </div>
                                         <!-- Gambar -->
-                                        <img
-                                            :src="'/img/Adult/Maskot.webp'"
-                                            alt="Student"
-                                            class="w-full max-w-[380px] lg:max-w-[440px] xl:max-w-[465px] rounded-lg relative -left-5 sm:left-3"
-                                        />
+                                        <img :src="'/img/Adult/Maskot.webp'" alt="Student"
+                                            class="w-full relative z-10 rounded-lg" />
                                     </div>
                                 </div>
                             </div>
@@ -137,22 +123,10 @@ onBeforeUnmount(() => {
             </div>
 
             <!-- Pagination + Arrow -->
-            <div class="flex justify-center items-center space-x-4">
-                <!-- <button
-                    @click="prevSlide"
-                    class=" text-black p-2 "
-                >
-                    <Fa6ArrowLeft class="w-5 h-5" />
-                </button> -->
-
+            <div class="flex justify-center items-center space-x-4 mt-6">
                 <div class="flex space-x-2">
-                    <button
-                        v-for="i in totalSlides"
-                        :key="i"
-                        @click="goToSlide(i - 1)"
-                        class="w-3 h-3 rounded-full"
-                        :class="currentSlide === i - 1 ? 'bg-black' : 'border '"
-                    ></button>
+                    <button v-for="i in totalSlides" :key="i" @click="goToSlide(i - 1)" class="w-3 h-3 rounded-full"
+                        :class="currentSlide === i - 1 ? 'bg-black' : 'border '"></button>
                 </div>
 
                 <button @click="nextSlide" class="text-black p-2">

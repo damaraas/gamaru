@@ -11,19 +11,19 @@
             >
                 Belajar Mandarin Seru untuk Anak Usia Dini
             </h1>
-            <p class="ext-black text-xs sm:text-sm md:text-base font-medium">
+            <p class="ext-black text-md sm:text-sm md:text-base font-medium text-justify">
                 Belajar bahasa asing sejak kecil bisa jadi menyenangkan loh
                 Moms! Program Little Learners (4-12 tahun) dirancang untuk
                 anak-anak yang baru mulai mengenal Mandarin lewat lagu,
                 permainan, flashcard, hingga perkenalan Hanzi sederhana.
             </p>
-            <p class="text-black text-xs sm:text-sm md:text-base font-medium text-justify">
+            <p class="text-black text-md sm:text-sm md:text-base font-medium text-justify">
                 Metode fun learning membuat anak lebih cepat menangkap kosakata
                 sehari-hari, membangun kepercayaan diri untuk berbicara, serta
                 menumbuhkan rasa ingin tahu terhadap budaya baru.
             </p>
             <p
-                class="text-black text-xs sm:text-sm md:text-base font-medium mt-0 text-justify"
+                class="text-black text-md sm:text-sm md:text-base font-medium mt-0 text-justify"
             >
                 Yuk mulai les privat Mandarin anak bersama Gamaru sekarang, biar
                 si kecil tumbuh percaya diri dan siap menghadapi dunia global.
@@ -35,7 +35,7 @@
             <div class="relative">
                 <!-- Polygon Background -->
                 <div
-                    class="absolute top-10 lg:top-[3.5rem] left-[12rem] lg:left-[12rem] -translate-x-[9.8rem] xl:left-[13rem] xl:top-[3.3rem] bg-[#ffba09] z-0 rounded-full w-full max-w-[245px] lg:max-w-[318px] xl:max-w-[340px] aspect-square"
+                    class="absolute top-10 lg:top-14 left-48 lg:left-48 -translate-x-[9.8rem] xl:left-52 xl:top-[3.3rem] bg-[#ffba09] z-0 rounded-full w-full max-w-[245px] lg:max-w-[318px] xl:max-w-[340px] aspect-square"
                 ></div>
                 <!-- Gambar -->
                 <img

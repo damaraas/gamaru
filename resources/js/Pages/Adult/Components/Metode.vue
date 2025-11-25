@@ -83,40 +83,27 @@ onBeforeUnmount(() => {
 
       <!-- Carousel Wrapper -->
       <div class="relative overflow-hidden">
-        <div
-          class="flex transition-transform duration-500"
-          :style="{ transform: `translateX(-${currentSlide * 100}%)` }"
-        >
+        <div class="flex transition-transform duration-500"
+          :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
           <!-- Slide -->
-          <div
-            v-for="(slide, slideIndex) in totalSlides"
-            :key="slideIndex"
-            class="w-full flex-shrink-0 grid gap-6 px-2"
+          <div v-for="(slide, slideIndex) in totalSlides" :key="slideIndex" class="w-full shrink-0 grid gap-6 px-2"
             :class="{
               'grid-cols-1': itemsPerSlide === 1,
               'grid-cols-2': itemsPerSlide === 2,
-            }"
-          >
-            <div
-              v-for="(item, idx) in testimonials.slice(
-                slideIndex * itemsPerSlide,
-                (slideIndex + 1) * itemsPerSlide
-              )"
-              :key="idx"
-              class="rounded-2xl p-8 text-left flex flex-col h-full border-gray-300 border-2"
-            >
+            }">
+            <div v-for="(item, idx) in testimonials.slice(
+              slideIndex * itemsPerSlide,
+              (slideIndex + 1) * itemsPerSlide
+            )" :key="idx" class="rounded-2xl p-8 text-left flex flex-col  h-full border-gray-300 border-2">
               <!-- Header (Gambar + Title) -->
-              <div class="flex items-center space-x-6">
-                <img
-                  :src="item.img"
-                  alt="Card image"
-                  class="w-44 h-44 object-cover rounded-xl"
-                />
+              <div class="flex flex-col lg:flex-row items-center justify-center gap-6">
+                <img :src="item.img" alt="Card image" class="w-44 h-44 object-cover rounded-xl" />
 
-                <h1 class="font-primary font-bold text-2xl flex-1">
+                <h1 class="font-primary font-bold text-2xl text-center lg:text-left">
                   {{ item.name }}
                 </h1>
               </div>
+
 
               <!-- Isi -->
               <p class="text-gray-700 text-lg leading-relaxed mt-2">
@@ -127,29 +114,20 @@ onBeforeUnmount(() => {
         </div>
 
         <!-- Navigation Buttons -->
-        <button
-          @click="prevSlide"
-          class="absolute left-2 top-1/2 -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow"
-        >
+        <button @click="prevSlide"
+          class="absolute left-2 top-1/2 -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow">
           <LuChevronLeft class="w-5 h-5" />
         </button>
-        <button
-          @click="nextSlide"
-          class="absolute right-2 top-1/2 -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow"
-        >
+        <button @click="nextSlide"
+          class="absolute right-2 top-1/2 -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow">
           <LuChevronRight class="w-5 h-5" />
         </button>
       </div>
 
       <!-- Pagination Dots -->
       <div class="flex justify-center mt-6 space-x-2">
-        <button
-          v-for="index in totalSlides"
-          :key="index"
-          @click="goToSlide(index - 1)"
-          class="w-3 h-3 rounded-full"
-          :class="currentSlide === index - 1 ? 'bg-primary' : 'bg-gray-300'"
-        ></button>
+        <button v-for="index in totalSlides" :key="index" @click="goToSlide(index - 1)" class="w-3 h-3 rounded-full"
+          :class="currentSlide === index - 1 ? 'bg-primary' : 'bg-gray-300'"></button>
       </div>
     </div>
   </section>
