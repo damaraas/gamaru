@@ -21,7 +21,7 @@
 
 @theme {
     --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
-    /* --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif; */
+    --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 
 
@@ -31,9 +31,12 @@
     --green: #08cb00; /* Hijau */
 }
 
-
 .font-sans {
     font-family: var(--font-sans);
+}
+
+.font-poppins {
+    font-family: var(--font-poppins);
 }
 
 .bg-primary {
@@ -50,4 +53,71 @@
 
 .font-primary {
     color: var(--primary);
+}
+
+.prose img {
+    @apply w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] mx-auto shadow-md object-cover rounded-lg mb-0;
+}
+
+/* Untuk heading */
+.prose h1 {
+  @apply text-3xl font-bold text-black leading-tight text-center font-poppins mb-4 mt-10;
+}
+
+.prose h2 {
+    @apply text-2xl font-bold text-black mb-4 mt-10 text-center font-poppins;
+}
+
+/* Untuk paragraf */
+.prose p {
+    @apply mb-4 leading-relaxed font-poppins;
+}
+
+/* biar list rapih juga */
+.prose ul,
+.prose ol {
+    @apply list-disc mb-4 pl-6;
+}
+
+/* untuk blockquote */
+.prose blockquote {
+    @apply bg-blue-50 border-l-4 border-blue-600 p-3 rounded-md my-4 font-poppins italic;
+}
+
+/* styling tabel di dalam prose */
+.prose table {
+    @apply w-full border-collapse my-6 text-left;
+}
+
+.prose thead {
+    @apply bg-gray-100;
+}
+
+.prose th,
+.prose td {
+    @apply border border-gray-300 px-4 py-2;
+}
+
+.prose th {
+    @apply font-semibold text-gray-800;
+}
+
+.prose tbody tr:nth-child(even) {
+    @apply bg-gray-50;
+}
+
+.prose .related-link a {
+    @apply text-blue-600 font-semibold underline hover:text-blue-800 transition;
+}
+
+.prose .source-link {
+    @apply text-sm text-gray-500 italic text-center;
+}
+
+.prose .source-link a {
+    @apply underline hover:text-gray-700 transition;
+}
+
+.prose p.source-link {
+    @apply -mt-4 mb-0;
 }

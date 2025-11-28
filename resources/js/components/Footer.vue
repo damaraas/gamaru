@@ -33,10 +33,10 @@ import { BsLinkedin } from "vue-icons-plus/bs";
             <a href="/program-teens" class="hover:underline">Teens & School Prep</a>
           </li>
           <li>
-            <a href="#" class="hover:underline">Adults & Profesinals</a>
+            <a href="/program-adult" class="hover:underline">Adults & Profesinals</a>
           </li>
           <li>
-            <a href="#" class="hover:underline">Global Learners</a>
+            <a href="/global-program" class="hover:underline">Global Learners</a>
           </li>
         </ul>
       </div>
